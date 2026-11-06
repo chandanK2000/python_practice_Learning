@@ -1,3 +1,0 @@
-name='chandan';
-
-print(name);
