@@ -1,0 +1,213 @@
+---------------------------------------------------------------
+Level 1 – Basic (Questions 1–15)
+
+1. Create one variable for each numeric type: int, float, and complex. Print their values and types.
+
+2. Create five string variables representing your name, city, country, company, and programming language. Print their types.
+
+3. Create two Boolean variables: is_student = True and is_employed = False. Print their types.
+
+4. Create a list containing five fruits. Print the list and its data type.
+
+5. Create a tuple containing five Indian cities. Print its type.
+
+6. Create a set containing {10, 20, 30, 10, 20}. Print the result. Observe duplicate removal.
+
+7. Create a dictionary containing employee name, ID, designation, and salary. Print its type.
+
+8. Create a range from 1 to 20. Print its type and convert it into a list.
+
+9. Create a frozenset containing five numbers. Print its type.
+
+10. Create three binary variables using bytes, bytearray, and memoryview. Print their types.
+
+11. Create a variable with the value None. Print its type.
+
+12. Create a variable containing 3 + 4j. Print its real and imaginary parts.
+
+13. Create a nested list containing three students, with each student represented by a list of name and age.
+
+14. Create a dictionary containing another dictionary as its value. Use an employee's personal details and address.
+
+15. Create a variable containing a mixture of data types: integer, string, float, Boolean, and None. Print its type.
+
+---------------------------------------------------------------
+
+Level 2 – Intermediate (Questions 16–30)
+
+
+16. Convert "250" into an integer and add 50 to it.
+
+17. Convert "99.99" into a float and multiply it by 2.
+
+18. Convert integer 500 into a string. Print its type before and after conversion.
+
+19. Convert 0, 1, 100, and -5 into Boolean values. Observe the results.
+
+20. Convert the string "123" into an integer, then into a float.
+
+21. Create a list of 10 employee names. Access the first, fifth, and last employee.
+
+22. Create a tuple of five subjects and access the third subject.
+
+23. Create a set with duplicate numbers. Find out how many unique values remain using len().
+
+24. Create a dictionary of five products with their prices. Access the price of one product using its key.
+
+25. Create a range from 10 to 50 with a step of 5. Convert it into a tuple.
+
+26. Create a string "python programming". Print its length, first character, last character, and uppercase version.
+
+27. Create a list containing integers and floats. Calculate its length and access individual elements.
+
+28. Create a dictionary containing employee name, salary, and department. Add a new key called joining_year.
+
+29. Create a byte sequence from the text "Hello Python". Print its contents and type.
+
+30. Create a bytearray containing five bytes. Change one of its values and print the updated result.
+
+---------------------------------------------------------------
+
+Level 3 – Advanced (Questions 31–40)
+
+
+31. List vs Tuple: Create a list and a tuple with the same five numbers. Try changing the second element in both. Observe what happens.
+
+32. Set Behaviour: Create two sets:
+a = {10, 20, 30, 40}b = {30, 40, 50, 60}
+
+
+
+Find their union, intersection, difference, and symmetric difference.
+
+33. Dictionary Behaviour: Create an employee dictionary. Update the salary, add a new key, and delete one existing key.
+
+34. String Immutability: Create a string "Chandan". Try changing its first character directly. What happens? Find another way to create the modified string.
+
+35. List Mutability: Create a list of five numbers. Assign the list to another variable. Change one element using the second variable. Check both variables.
+
+36. Tuple with Mutable Elements: Create a tuple containing a list:
+data = (10, 20, [30, 40])
+
+
+
+Try changing the list element inside the tuple. Is it possible?
+
+37. Set and Immutable Elements: Create a set containing integers, strings, and tuples. Try adding a list to the set. Observe the error and explain why.
+
+38. Dictionary Keys: Create a dictionary using strings, integers, and tuples as keys. Then try using a list as a key. Explain the result.
+
+39. Range Behaviour: Create:
+numbers = range(1, 21, 2)
+
+
+
+Check its length, first element, last element, and convert it into a set.
+
+40. NoneType Behaviour: Create three variables:
+a = Noneb = 0c = ""
+
+-----------------------------------------------------------------
+
+
+Compare their types and check whether each value is equal to None.
+
+Level 4 – Expert Challenges (Questions 41–50)
+Focus: Mixed data types, debugging, real-world scenarios and tricky concepts.
+
+41. Predict the Output:
+a = [10, 20, 30]b = ab.append(40)print(a)print(b)
+
+
+
+Explain why both variables show the updated list.
+
+42. Predict the Output:
+a = (10, 20, 30)b = aa = (40, 50, 60)print(a)print(b)
+
+
+
+43. Type Conversion Challenge:
+a = "100"b = 200result = int(a) + bprint(result)print(type(result))
+
+
+
+Predict both outputs.
+
+44. Boolean Challenge:
+print(bool(""))print(bool("False"))print(bool([]))print(bool([0]))print(bool(None))print(bool(0))
+
+
+
+Predict all six outputs and explain why.
+
+45. Nested Data Challenge:
+
+Create this structure:
+- A dictionary named company.
+- Store the company name.
+- Store a list of three departments.
+- Each department should contain a tuple of two employee names.
+- Print the second employee of the first department.
+46. Find and Fix the Errors:
+numbers = {10, 20, 30}numbers.append(40)print(numbers)
+
+
+
+Why does this code fail? Correct it.
+
+47. Mixed Collection Challenge:
+
+Create a list containing:
+- One integer
+- One float
+- One string
+- One Boolean
+- One tuple
+- One dictionary
+- One set
+- One None value
+Print the type of every element using type().
+
+48. Memory and Mutability Challenge:
+a = [1, 2, 3]b = a.copy()b.append(4)print(a)print(b)print(a is b)
+
+
+
+Explain why the results are different from Question 41.
+
+49. Employee Database Challenge:
+
+Create an employee dictionary containing:
+- Employee ID
+- Employee name
+- Salary
+- Skills (list)
+- Permanent employee (Boolean)
+- Joining year
+- Address (nested dictionary)
+- Previous projects (tuple)
+Print the data type of every value.
+
+50. Complete Data Types Challenge:
+
+Create one variable for each of Python's 15 built-in data types:
+- int
+- float
+- complex
+- str
+- bool
+- list
+- tuple
+- range
+- dict
+- set
+- frozenset
+- bytes
+- bytearray
+- memoryview
+- NoneType
+Print all variable names, values, and their data types.
+
+
+---------------------------------------------------------------

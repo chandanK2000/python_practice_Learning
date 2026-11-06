@@ -94,7 +94,8 @@ print('-------------The global Keyword--------');
 myname="chandan kumar";
 
 def myName():
-    global name='chandan'
+    global name
+    name='chandan'
     print(f'my name is {myname}')
     # print(q)
 

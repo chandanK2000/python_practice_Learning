@@ -1,4 +1,154 @@
 
+Level 1 – Basic Variables (1–10)
+1. Create a variable called name and store your full name. Print it.
+
+2. Create three variables: name, age, and city. Store your personal details and print them separately.
+
+3. Store your favourite programming language in a variable and print it.
+
+4. Create a variable salary and assign ₹35,000 to it.
+
+5. Store your date of birth in a variable and print it.
+
+6. Create two variables a = 10 and b = 20. Print both values.
+
+7. Create a variable is_student and assign True.
+
+8. Store your height in metres using a decimal value.
+
+9. Create a variable company_name and store your company name.
+
+10. Create four variables representing name, age, salary, and is_employed. Print all four with meaningful messages.
+
+---------------------------------------------------------------
+
+Level 2 – Real-world Scenarios (11–20)
+
+11. Student Management: Store student name, roll number, class, and percentage in separate variables.
+
+12. Employee Management: Store employee ID, first name, last name, designation, and salary.
+
+13. Shopping: A customer purchases a product worth ₹2,500. Store product name, price, and quantity in variables.
+
+14. Banking: Store account holder name, account number (as a string), and account balance.
+
+15. Restaurant: Store restaurant name, food item, food price, and quantity ordered.
+
+16. Mobile Recharge: Store mobile number, recharge amount, and validity days.
+
+17. Travel: Store source city, destination city, ticket price, and distance.
+
+18. College: Store college name, student name, course name, and admission year.
+
+19. Electricity Bill: Store customer name, units consumed, and price per unit.
+
+20. Personal Finance: Store monthly income, house rent, food expenses, and travel expenses.
+
+---------------------------------------------------------------
+
+Level 3 – Variable Operations (21–30)
+
+21. Create two variables a = 50 and b = 100. Swap their values using a temporary variable.
+
+22. Create a variable balance = 5000. Add ₹2,000 to it and update the balance.
+
+23. A product costs ₹1,500. Increase its price by ₹200 and update the variable.
+
+24. Store your monthly salary. Calculate your annual salary using a variable.
+
+25. Store length = 20 and width = 10. Calculate the rectangle's area.
+
+26. Store principal = 10000, rate = 5, and time = 2. Calculate simple interest.
+
+27. Store the marks of five subjects in five variables. Calculate total marks and average marks.
+
+28. Store quantity = 5 and price = 250. Calculate the total shopping amount.
+
+29. Store your current age. Calculate your approximate age after 10 years.
+
+30. Store the temperature in Celsius. Convert it into Fahrenheit using a formula.
+
+---------------------------------------------------------------
+
+Level 4 – Data Types & Type Conversion (31–40)
+
+31. Store "100" in a variable. Convert it into an integer and print its type.
+
+32. Store "99.50" in a variable. Convert it into a float.
+
+33. Store 500 in a variable. Convert it into a string.
+
+34. Store 45.75 in a variable. Convert it into an integer. Observe the output.
+
+35. Store 0 in a variable. Convert it into a Boolean and print the result.
+
+36. Store 1 in a variable. Convert it into a Boolean and print the result.
+
+37. Store "True" in a variable. Check its data type. Is it a Boolean?
+
+38. Store 100 and 200 as strings. Convert both to integers and calculate their sum.
+
+39. Store your age as a string. Convert it into an integer and add 5 years.
+
+40. Store a product price as a string "250.75". Convert it into a float and calculate the price for 3 products.
+
+---------------------------------------------------------------
+
+Level 5 – Challenge Level (41–50)
+
+41. What will be the output? Explain why.
+
+a = 10b = aa = 20print(a)print(b)
 
 
-def
+
+42. Predict the output:
+x = 10x = x + 5x = x * 2print(x)
+
+
+
+43. Find the mistake in this code:
+2name = "Chandan"print(2name)
+
+
+
+44. What will happen here?
+name = "Chandan"Name = "Rahul"print(name)print(Name)
+
+
+
+45. Predict the output:
+a = 10b = 20a, b = b, aprint(a, b)
+
+
+
+46. What is wrong with this code?
+global name = "Chandan"print(name)
+
+
+
+47. Predict the output:
+x = 100y = 200x = yy = 300print(x, y)
+
+
+
+48. What will be the output?
+a = 10b = 3result = a / bprint(result)print(type(result))
+
+
+
+49. Create a variable total_amount = 1000. Apply a 10% discount by updating the same variable. Print the final amount.
+
+50. Mini Real-world Challenge – Employee Salary
+
+Create variables for:
+- Employee name
+- Employee ID
+- Basic salary
+- HRA (20% of basic salary)
+- DA (10% of basic salary)
+- Total salary
+Calculate the total salary using the variables and print a complete employee salary summary.
+
+
+---------------------------------------------------------------
