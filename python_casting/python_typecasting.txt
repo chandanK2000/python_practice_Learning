@@ -1,0 +1,122 @@
+--------------------------------------------------------
+evel 1 – Basic (1–12)
+
+Focus: Understanding fundamental type conversions.
+
+1. Convert the integer 100 into a float.
+
+2. Convert the float 45.89 into an integer. Observe what happens to the decimal part.
+
+3. Convert the integer 500 into a string.
+
+4. Convert the string "250" into an integer.
+
+5. Convert the string "45.75" into a float.
+
+6. Convert the integer 0 into a Boolean. Display the result.
+
+7. Convert the integer 1 into a Boolean.
+
+8. Convert the string "Chandan" into a Boolean.
+
+9. Convert an empty string "" into a Boolean.
+
+10. Convert the float 10.5 into a complex number.
+
+11. Convert the integer 25 into a complex number.
+
+12. Take two numbers from the user using input() and convert them into integers before calculating their sum.
+
+--------------------------------------------------------
+
+Level 2 – Intermediate (13–25)
+
+Focus: Multiple conversions and collection type casting.
+
+13. Take a number as a string and convert it into an integer, float and complex number.
+
+14. Convert a list [10, 20, 30, 40] into a tuple.
+
+15. Convert a tuple (10, 20, 30, 40) into a list.
+
+16. Convert a list [1, 2, 2, 3, 3, 4] into a set and remove duplicates.
+
+17. Convert a tuple containing duplicate elements into a set.
+
+18. Convert a set {10, 20, 30, 40} into a list.
+
+19. Convert the string "PYTHON" into a list of characters.
+
+20. Convert the string "apple" into a tuple of characters.
+
+21. Convert a list of key-value pairs into a dictionary.
+
+Example: [("name", "Chandan"), ("age", 25)]
+
+22. Convert a dictionary into a list of keys.
+
+23. Convert a dictionary into a list of values.
+
+24. Convert the integer 101 into binary, octal and hexadecimal representations.
+
+25. Convert the character "A" into its Unicode integer using ord() and convert that integer back into a character using chr().
+Level 3 – Advanced (26–38)
+Focus: Nested conversions, validation and tricky type casting.
+
+26. Take three numbers from the user as strings, convert them into integers and calculate their average.
+
+27. Convert a list of numeric strings ["10", "20", "30", "40"] into a list of integers without manually writing each conversion.
+
+28. Convert a list of float strings ["10.5", "20.5", "30.5"] into a list of floats.
+
+29. Convert a list of integers into strings using map().
+
+30. Convert a list of strings into integers using map().
+
+31. Given numbers = [10, 20, 30, 40], convert the list into a tuple, then into a set, and finally back into a list.
+
+32. Convert the string "12345" into an integer and calculate the sum of its digits.
+
+33. Convert the binary string "101101" into a decimal integer.
+
+34. Convert the octal string "125" into a decimal integer.
+
+35. Convert the hexadecimal string "1A" into a decimal integer.
+
+36. Convert the string "12.75" into an integer without directly using int("12.75"). First convert it into a float.
+
+37. Convert a nested list into a dictionary.
+
+Example: [["name", "Chandan"], ["age", 25], ["city", "Bangalore"]]
+
+38. Take a list containing mixed values [10, "20", 30, "40", 50]. Convert all numeric values into integers and calculate their sum.
+Level 4 – Real-world scenarios and challenges (39–50)
+Focus: Applying type casting in practical applications.
+
+39. Student marks calculator: Take marks of five subjects using input(). Convert them into integers and calculate total and percentage.
+
+40. Employee salary: Take basic salary as a string and convert it into float. Calculate annual salary.
+
+41. Shopping calculator: Take product price and quantity from the user. Convert them into appropriate numeric types and calculate the total bill.
+
+42. GST calculator: Take product price and GST percentage as strings. Convert them into floats and calculate the final price.
+
+43. Bank deposit: Take deposit amount as a string, convert it into float and calculate the new account balance.
+
+44. Age validation: Take age from the user as a string. Convert it into an integer and check whether the person is eligible to vote (18 or above). Handle invalid input.
+
+45. CSV-like data conversion: Given ["Chandan", "25", "45000.50"], convert the values into appropriate data types and store them in a dictionary.
+
+46. API response simulation: Given this dictionary:
+
+{"id": "101", "price": "250.50", "active": "1"}
+
+Convert ID into integer, price into float and active into Boolean correctly. Note that bool("0") is True, so handle the active field logically.
+
+47. Mixed data cleaning: Given ["10", "20.5", "30", "40.75"], convert all values into floats and calculate their average.
+
+48. Binary conversion application: Take a decimal number from the user, convert it into binary and then convert it back into decimal. Verify that the original number is recovered.
+
+49. User registration simulation: Take name, age, salary and experience as user input. Convert the numeric fields into appropriate types and create a dictionary.
+
+50. Smart type conversion program: Take a list of mixed values such as ["100", "25.5", "True", "Python", "0"]. Identify the original type of each value, apply suitable conversions where possible, and display the converted values with their types. Decide how to handle invalid conversions.
