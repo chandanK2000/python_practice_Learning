@@ -1,0 +1,154 @@
+Python Boolean – 50 Practice Questions
+
+--------------------------------------------------------------------
+Level 1 · Basic
+ 
+Part A: Boolean basics
+1. Create two variables is_active = True and is_logged_in = False. Print both variables.
+
+2. Check the data type of True and False using the type() function.
+
+3. Convert the integer 1 into a Boolean using bool().
+
+4. Convert the integer 0 into a Boolean using bool().
+
+5. Convert -10, -1, 0, 1, and 100 into Boolean values. Observe the results.
+
+6. Convert the following strings into Boolean values:
+- "Python"
+- ""
+- "False"
+- "0"
+7. Convert an empty list and a non-empty list into Boolean values.
+
+8. Convert an empty tuple and a non-empty tuple into Boolean values.
+
+9. Convert an empty dictionary and a non-empty dictionary into Boolean values.
+
+10. Convert an empty set and a non-empty set into Boolean values.
+
+11. Convert None into a Boolean value.
+
+12. Create a variable is_available = True. Print "Available" if it is True.
+
+13. Create a variable is_raining = False. Print "No rain" if it is False.
+
+14. Write a program to check whether a given number is greater than 50. Store the result in a Boolean variable.
+
+15. Write a program to check whether a person's age is 18 or above. Store the result in is_eligible.
+
+--------------------------------------------------------------------------
+
+Level 2 · Intermediate
+
+Part B: Boolean operators
+16. Predict the output:
+print(True and True)print(True and False)print(False and True)print(False and False)
+
+17. Predict the output:
+print(True or True)print(True or False)print(False or True)print(False or False)
+
+18. Predict the output:
+print(not True)print(not False)
+
+
+19. What will be the output?
+a = 10b = 20print(a > b)print(a < b)print(a == b)
+
+
+
+20. Check whether a number is between 10 and 50 using and.
+21. Check whether a number is either less than 10 or greater than 100 using or.
+22. Create a variable is_blocked = False. Use not to check whether the user is not blocked.
+23. Predict the output:
+print(bool(10 and 0))print(bool(10 or 0))print(bool(not 10))
+
+
+
+24. Predict the output:
+x = 5y = 10print(x < y and y > 5)print(x > y or y == 10)print(not (x == 5))
+
+
+
+25. Check whether a student passed. The passing marks are 40 or above. Store the result as Boolean.
+26. A user can log in only if both username and password are correct. Write a Boolean condition for this.
+27. A customer gets free delivery if the order amount is above ₹500 OR they have a premium membership. Write the condition.
+28. A person can enter an event if they are 18 or above AND have a valid ticket. Write the condition.
+29. Predict the output:
+print(bool([] or "Python"))print(bool([] and "Python"))print(bool(not ""))
+
+30. Write a program to check whether a given number is NOT equal to zero using Boolean logic.
+
+--------------------------------------------------------------------------
+Level 3 · Advanced
+ Questions 31–40
+
+Part C: Truthy, falsy and logical expressions
+31. Predict the output:
+print(10 and 20)print(0 and 20)print(10 or 20)print(0 or 20)
+
+
+
+32. Predict the output:
+print("" or "Hello")print("Python" and "Java")print(not (10 > 5))
+
+33. Write a program to check whether a username is not empty AND its length is at least 5 characters.
+34. A bank allows a withdrawal if:
+- Balance is greater than or equal to the withdrawal amount.
+- Account is active.
+Write the Boolean condition.
+35. An employee receives a bonus if performance is greater than 90 OR sales are greater than ₹1,00,000. Write the condition.
+36. Predict the output:
+a = Trueb = Falsec = Trueprint(a and b or c)print(a or b and c)print(not a or c)
+
+
+
+37. Check whether a number is divisible by both 2 and 5 using Boolean logic.
+38. A user can access an admin dashboard only if they are logged in AND their role is ADMIN. Write the condition.
+39. Predict the output:
+print(bool(0.0))print(bool(-0.0))print(bool(0.0001))print(bool(" "))print(bool("False "))
+
+
+
+40. Write a program that checks whether a student is eligible for an exam:
+- Attendance must be at least 75%.
+- Fees must be paid.
+- Student must be registered.
+
+Level 4 · Real-world & Challenging
+ Questions 41–50
+
+Part D: Real-world Boolean scenarios
+41. Online shopping: A customer can place an order if the product is available AND payment is successful. Write the Boolean condition.
+42. Login security: A user can log in if the username and password are correct AND the account is not blocked.
+43. ATM machine: Cash can be withdrawn if the account is active, the PIN is correct and the balance is sufficient.
+44. Job eligibility: A candidate is eligible if:
+- Age is between 21 and 35.
+- Graduation is completed.
+- Experience is at least 2 years.
+45. Movie ticket: A person gets a discount if they are below 12 OR above 60 years old.
+46. Warehouse management: A vehicle can leave the warehouse if:
+- Vehicle is available.
+- Driver is assigned.
+- Goods are loaded.
+- Payment is completed OR the customer has credit permission.
+47. OTP verification: A user can proceed if OTP is correct AND OTP has not expired AND the account is active.
+48. E-commerce return: A product can be returned if:
+- Return request is within 7 days.
+- Product is unused.
+- Order is delivered.
+49. Bank account: An account can be closed if the balance is zero AND there are no pending transactions AND the account is active.
+50. Final challenge – Employee access system:
+Create these variables:
+is_logged_in = Trueis_active = Trueis_admin = Falseis_manager = Trueis_blocked = False
+
+
+
+Write Boolean conditions to check:
+- Whether the employee can access the application.
+- Whether the employee can access the admin dashboard.
+- Whether the employee can access the manager dashboard.
+- Whether the employee should be denied access.
+- Whether the employee has either admin or manager permission.
+
+------------------------------------------------------------------------------

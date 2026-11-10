@@ -1,0 +1,320 @@
+----------------------------------------------------------------------
+Level 1 – Basic Questions
+
+Category 1: Arithmetic Operators (1–15)
+
+1. Create two variables a = 10 and b = 5. Print their addition.
+2. Subtract 25 from 100.
+3. Multiply 12 by 8.
+4. Divide 100 by 4.
+5. Find the floor division of 17 by 3.
+6. Find the remainder when 25 is divided by 4.
+7. Calculate 2 raised to the power of 5.
+8. Find the square of 15 using an operator.
+9. Find the cube of 4.
+10. Calculate the average of three numbers.
+11. Calculate the area of a rectangle using multiplication.
+12. Calculate the area of a square.
+13. Convert minutes into seconds using multiplication.
+14. Calculate the total price of 5 products, each costing ₹120.
+15. Find the remainder when 100 is divided by 7.
+
+----------------------------------------------------------------------
+
+Category 2: Comparison Operators (16–25)
+
+16. Check whether 10 is greater than 5.
+17. Check whether 20 is less than 15.
+18. Check whether two numbers are equal.
+19. Check whether two numbers are not equal.
+20. Check whether 50 is greater than or equal to 50.
+21. Check whether 25 is less than or equal to 30.
+22. Compare two students' marks and print whether the first student scored more.
+23. Check whether a person's age is at least 18.
+24. Check whether a product price is below ₹500.
+25. Check whether two strings are equal.
+
+----------------------------------------------------------------------
+
+Category 3: Assignment Operators (26–35)
+
+26. Assign 100 to a variable and print it.
+27. Add 10 to a variable using +=.
+28. Subtract 5 using -=.
+29. Multiply a variable by 3 using *=.
+30. Divide a variable by 2 using /=.
+31. Perform floor division using //=.
+32. Find the remainder using %=.
+33. Raise a variable to the power of 2 using **=.
+34. Increase a bank balance by ₹500 using an assignment operator.
+35. Decrease product stock by 10 using an assignment operator.
+
+----------------------------------------------------------------------
+
+Category 4: Logical Operators (36–45)
+
+36. Check whether 10 is greater than 5 AND 20 is greater than 15.
+37. Check whether 10 is greater than 20 OR 30 is greater than 15.
+38. Use not to reverse the result of True.
+39. Check whether a person is eligible to vote using and.
+40. Check whether a student passed Mathematics OR Science.
+41. Check whether age is between 18 and 60.
+42. Check whether a username and password are both correct.
+43. Check whether a number is greater than 0 and less than 100.
+44. Check whether a person is eligible for a discount if they are a premium member OR their purchase exceeds ₹5,000.
+45. Check whether a number is NOT equal to zero using not.
+
+----------------------------------------------------------------------
+
+Category 5: Membership Operators (46–52)
+
+46. Check whether "Python" exists in "I love Python programming".
+47. Check whether "Java" exists in a Python string.
+48. Check whether 20 exists in a list.
+49. Check whether 100 does not exist in a list.
+50. Check whether "apple" exists in a tuple.
+51. Check whether a particular key exists in a dictionary.
+52. Check whether a particular character exists in a username.
+
+----------------------------------------------------------------------
+
+Category 6: Identity Operators (53–58)
+
+53. Create two variables with the same value and check using is.
+54. Create two separate lists with the same values and compare them using is.
+55. Compare two variables using is not.
+56. Check whether a variable is None.
+57. Check whether two variables refer to the same list.
+58. Compare two variables using both == and is. Observe the difference.
+
+----------------------------------------------------------------------
+
+
+Level 2 – Medium Questions
+Intermediate
+
+Category 7: Arithmetic + Comparison (59–70)
+
+59. Check whether a number is even or odd using %.
+60. Check whether a number is divisible by both 3 and 5.
+61. Check whether a number is divisible by 7.
+62. Calculate the last digit of a number using %.
+63. Remove the last digit of a number using //.
+64. Calculate the sum of the last two digits of a number.
+65. Check whether a number is a multiple of 10.
+66. Calculate the total salary after adding a 15% bonus.
+67. Calculate the discount amount on a product.
+68. Calculate simple interest using arithmetic operators.
+69. Check whether a year is a leap year using comparison and logical operators.
+70. Check whether three given numbers are equal.
+
+----------------------------------------------------------------------
+
+Category 8: Logical Operator Scenarios (71–82)
+
+71. A student passes if marks are at least 40 in all three subjects.
+72. A person can enter a club if age is at least 21 OR they have special permission.
+73. Check whether a number is between 50 and 100, inclusive.
+74. Check whether a number is outside the range 10 to 50.
+75. Check whether a username is not empty AND password is not empty.
+76. Check whether a person is eligible for a loan based on salary and age.
+77. Check whether a person can drive if they have a driving licence AND are at least 18.
+78. Check whether a product is available AND its stock is greater than zero.
+79. Check whether a student failed if any one of three subject marks is below 35.
+80. Check whether a number is positive, negative, or zero using logical operators.
+81. Check whether a person qualifies for a scholarship based on marks and family income.
+82. Check whether a transaction is valid based on balance and transaction amount.
+
+----------------------------------------------------------------------
+
+Category 9: Assignment + Calculation (83–92)
+
+83. Start with a balance of ₹10,000. Deposit ₹2,000 using +=.
+84. Withdraw ₹1,500 using -=.
+85. Increase a product price by 10% using *=.
+86. Reduce a price by 20% using *=.
+87. Calculate compound growth using **=.
+88. Start with 100 items and remove 15% using assignment operators.
+89. Update an employee's salary by adding a fixed allowance.
+90. Update a variable using multiple assignment operators.
+91. Predict the final value after +=, *=, and -=.
+92. Create a shopping cart total and update it using assignment operators.
+
+----------------------------------------------------------------------
+
+Category 10: Operator Precedence (93–102)
+
+Predict the output before executing each program.
+print(10 + 5 * 2)
+
+
+
+print((10 + 5) * 2)
+
+
+
+print(20 / 5 + 3 * 2)
+
+
+
+print(2 ** 3 ** 2)
+
+
+
+print(10 + 20 / 5 * 2)
+
+
+
+print(100 - 20 // 3)
+
+
+
+print(10 > 5 and 20 < 30)
+
+
+
+print(True or False and False)
+
+
+
+print(not True or False)
+
+
+
+print(10 + 5 > 12 * 2)
+
+
+
+----------------------------------------------------------------------
+
+Level 3 – Advanced Questions
+
+Advanced
+Category 11: Bitwise Operators (103–117)
+
+First understand binary numbers. For example, decimal 5 is binary 0101.
+103. Find the result of 5 & 3.
+104. Find the result of 5 | 3.
+105. Find the result of 5 ^ 3.
+106. Find the result of ~5.
+107. Find the result of 10 << 1.
+108. Find the result of 10 >> 1.
+109. Convert 15 into binary using bin().
+110. Check whether a number is odd using a bitwise operator.
+111. Check whether a number is even using a bitwise operator.
+112. Swap two numbers using XOR.
+113. Set the second bit of a number using OR.
+114. Clear a particular bit using AND and NOT.
+115. Toggle a particular bit using XOR.
+116. Check whether a number is a power of 2 using bitwise operators.
+117. Predict the output of combining &, |, and ^.
+
+----------------------------------------------------------------------
+
+Category 12: Mixed Operator Challenges (118–135)
+
+118. Check whether a number is between 1 and 100 and divisible by 5.
+119. Check whether a student passed all subjects and has attendance above 75%.
+120. Build a simple login validation using logical and comparison operators.
+121. Calculate the total bill after applying a discount and tax.
+122. Calculate the remaining balance after multiple transactions.
+123. Check whether a number is divisible by 2, 3, and 5.
+124. Check whether a given character is a vowel using membership operators.
+125. Check whether a username contains a particular character.
+126. Check whether two lists contain the same elements and whether they are the same object.
+127. Check whether a dictionary contains a required key.
+128. Create a temperature checker using comparison and logical operators.
+129. Build an employee bonus eligibility checker.
+130. Calculate the final product price using arithmetic and assignment operators.
+131. Create a simple electricity bill calculator using operators.
+132. Check whether a number is within a given range but is not equal to the boundary values.
+133. Find the largest of three numbers using comparison and logical operators.
+134. Check whether a password satisfies multiple conditions using operators.
+135. Create a simple ATM withdrawal eligibility checker.
+
+----------------------------------------------------------------------
+
+Category 13: Tricky Output-Based Questions (136–150)
+
+Predict the output and explain WHY.
+x = 10y = 3print(x / y)print(x // y)
+
+
+
+print(10 % 3)print(-10 % 3)
+
+
+
+print(2 ** 3 ** 2)
+
+
+
+x = 5x += 3 * 2print(x)
+
+
+
+print(True + True + False)
+
+
+
+print(10 == 10.0)
+
+
+
+a = [1, 2, 3]b = [1, 2, 3]print(a == b)print(a is b)
+
+
+
+x = Noneprint(x is None)print(x == None)
+
+
+
+print(not 10 > 5)
+
+
+
+print(5 & 3)print(5 | 3)print(5 ^ 3)
+
+
+
+print(10 and 20)print(0 or 50)
+
+
+
+print(10 < 20 < 30)
+
+
+
+print(10 > 5 and 5 > 2 or 3 < 1)
+
+
+
+x = 10y = 10print(x is y)
+
+
+
+print(2 * 3 + 4 ** 2 // 2)
+
+
+
+----------------------------------------------------------------------
+
+Bonus – Real-world coding challenges (151–165)
+These are more practical. Try to solve without using if-else initially wherever possible.
+151. Build an age eligibility checker.
+152. Create an online shopping discount calculator.
+153. Create an employee salary increment calculator.
+154. Build a student result checker for five subjects.
+155. Create a bank withdrawal validation system.
+156. Build a product stock availability checker.
+157. Create a ticket booking eligibility system.
+158. Build a simple login condition checker.
+159. Create an electricity bill calculation system.
+160. Build a number classification program (positive, negative, zero).
+161. Create a password validation system.
+162. Build a restaurant bill calculator with tax and service charge.
+163. Create a loan eligibility checker using salary, age, and existing loan status.
+164. Build a simple inventory reorder checker using stock quantity and minimum stock level.
+165. Create a transaction validation system using account balance, transaction amount, and daily transaction limit.
+
+----------------------------------------------------------------------

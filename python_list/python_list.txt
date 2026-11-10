@@ -1,0 +1,406 @@
+---------------------------------------------------------------
+Level 1 – Basic Python List Practice
+Beginner
+Category 1: Creating Lists (1–12)
+
+1. Create a list containing five fruit names.
+
+2. Create a list containing five student names.
+
+3. Create a list containing numbers from 1 to 10.
+
+4. Create a list containing five different data types.
+
+5. Create an empty list and print it.
+
+6. Create a list containing duplicate numbers.
+
+7. Create a list of five employee names.
+
+8. Create a list of five product prices.
+
+9. Create a list containing Boolean values.
+
+10. Create a list containing mixed strings and integers.
+
+11. Create a list of three programming languages.
+
+12. Create a list containing your personal information using different data types.
+
+-------------------------------------------------------------------------------
+Category 2: Accessing List Elements (13–27)
+
+13. Access the first element of a list.
+
+14. Access the second element.
+
+15. Access the last element using a positive index.
+
+16. Access the last element using a negative index.
+
+17. Access the third element from the end.
+
+18. Access the first three elements using slicing.
+
+19. Access the last three elements.
+
+20. Access elements from index 2 to index 5.
+
+21. Print all elements except the first element.
+
+22. Print all elements except the last element.
+
+23. Access elements using a negative slice.
+
+24. Extract alternate elements using slicing.
+
+25. Reverse a list using slicing.
+
+26. Access every second element starting from index 1.
+
+27. Print the middle element of a list with an odd number of elements.
+
+-------------------------------------------------------------------------------
+
+Category 3: Updating List Elements (28–39)
+
+28. Change the first element of a list.
+
+29. Change the last element of a list.
+
+30. Update the third element with a new fruit.
+
+31. Update multiple elements using index positions.
+
+32. Change the first three elements using slicing.
+
+33. Replace all occurrences of a particular value.
+
+34. Change a student name in a student list.
+
+35. Update a product price in a price list.
+
+36. Replace a particular range of elements with new elements.
+
+37. Update the middle element of a list.
+
+38. Swap the first and last elements.
+
+39. Replace a list's entire contents using slicing.
+
+-------------------------------------------------------------------------------
+
+Category 4: Adding List Elements (40–55)
+
+40. Add a fruit using append().
+41. Add five numbers using repeated append().
+42. Add an element at index 0 using insert().
+43. Insert a student name at index 2.
+44. Add multiple fruits using extend().
+45. Add one list to another using extend().
+46. Add a new employee to an employee list.
+47. Add a product to a shopping cart.
+48. Add an element at the middle position.
+49. Add an element at the last position.
+50. Add three new numbers to an existing list.
+51. Add a list of programming languages to another list.
+52. Add a new item only if it does not already exist.
+53. Add a number only if it is greater than 10.
+54. Insert an element at a user-provided index.
+55. Add multiple student names entered by the user.
+
+-------------------------------------------------------------------------------
+
+Category 5: Removing List Elements (56–70)
+
+56. Remove "apple" using remove().
+57. Remove the first element using pop().
+58. Remove the last element using pop().
+59. Remove an element using its index.
+60. Delete the second element using del.
+61. Delete the last three elements using slicing and del.
+62. Remove all elements using clear().
+63. Remove a particular student name.
+64. Remove a product from a shopping cart.
+65. Remove the first occurrence of a duplicate number.
+66. Remove an element only if it exists.
+67. Remove all occurrences of a particular value.
+68. Remove all even numbers from a list.
+69. Remove all negative numbers from a list.
+70. Remove elements at specific index positions.
+
+-------------------------------------------------------------------------------
+
+Category 6: List Length and Basic Functions (71–80)
+
+71. Find the length of a list using len().
+72. Find the smallest number using min().
+73. Find the largest number using max().
+74. Calculate the sum using sum().
+75. Calculate the average of all numbers.
+76. Count the number of student names.
+77. Find the total price of all products.
+78. Find the difference between the largest and smallest numbers.
+79. Convert a string into a list using list().
+80. Convert a tuple into a list.
+
+-------------------------------------------------------------------------------
+
+Level 2 – Medium Python List Practice
+
+Intermediate
+Category 7: Searching and Counting (81–95)
+81. Check whether a fruit exists using in.
+82. Check whether a fruit does not exist using not in.
+83. Find the index of a particular element using index().
+84. Count how many times 10 appears using count().
+85. Find the occurrence of "apple" in a list.
+86. Find the first occurrence of a duplicate element.
+87. Check whether a list contains duplicate values.
+88. Find all indexes where a particular value occurs.
+89. Find the second occurrence of a particular number.
+90. Search for a student name in a list.
+91. Search for a product by its name.
+92. Count how many even numbers are present.
+93. Count how many odd numbers are present.
+94. Count how many positive and negative numbers are present.
+95. Find all elements greater than 50.
+
+-------------------------------------------------------------------------------
+
+Category 8: Sorting Lists (96–110)
+
+96. Sort numbers in ascending order using sort().
+97. Sort numbers in descending order.
+98. Sort fruit names alphabetically.
+99. Sort student names alphabetically in reverse order.
+100. Sort a list using sorted().
+101. Sort a list without modifying the original list.
+102. Sort a list of prices from lowest to highest.
+103. Sort a list of marks from highest to lowest.
+104. Find the second-largest number after sorting.
+105. Find the second-smallest number.
+106. Sort a list containing duplicate numbers.
+107. Sort a list of words by their length.
+108. Sort a list of strings without considering case using key=str.lower.
+109. Sort a list of tuples based on the second element.
+110. Compare sort() and sorted() using the same list.
+
+-------------------------------------------------------------------------------
+
+Category 9: Reversing Lists (111–120)
+
+111. Reverse a list using reverse().
+112. Reverse a list using slicing.
+113. Reverse a list using a loop.
+114. Reverse a list without using reverse() or slicing.
+115. Reverse a list of student names.
+116. Reverse a list of numbers.
+117. Reverse only the first five elements.
+118. Reverse only the last three elements.
+119. Reverse each word in a list of strings.
+120. Compare reverse() and reversed().
+
+-------------------------------------------------------------------------------
+
+Category 10: Copying Lists (121–132)
+
+121. Copy a list using copy().
+122. Copy a list using list().
+123. Copy a list using slicing.
+124. Copy a list using copy module's deepcopy().
+125. Create a list and assign it to another variable. Check whether both refer to the same object.
+126. Change the original list and observe the copied list.
+127. Compare shallow copy and deep copy.
+128. Copy a nested list and modify an inner element.
+129. Create an independent copy of a nested list.
+130. Use id() to compare the memory identities of two lists.
+131. Copy a list containing duplicate values.
+132. Create a copy and sort it without modifying the original.
+
+-------------------------------------------------------------------------------
+
+Category 11: Joining and Combining Lists (133–145)
+
+133. Join two lists using +.
+134. Join three lists using +.
+135. Combine two lists using extend().
+136. Combine two lists using append() and observe the difference.
+137. Join two lists using unpacking (*).
+138. Combine two lists without duplicates.
+139. Combine two lists and sort the result.
+140. Combine two student lists.
+141. Combine two product price lists.
+142. Combine two lists alternatively, taking one element from each.
+143. Join a list of first names and a list of last names.
+144. Combine two lists using zip().
+145. Find the common elements between two lists.
+
+-------------------------------------------------------------------------------
+
+Category 12: Looping Through Lists (146–160)
+
+146. Print all list elements using a for loop.
+147. Print all elements using a while loop.
+148. Print each element with its index using enumerate().
+149. Print list elements with index starting from 1.
+150. Print only even numbers using a loop.
+151. Print only odd numbers.
+152. Print all numbers greater than 50.
+153. Calculate the sum of all elements using a loop.
+154. Calculate the product of all numbers using a loop.
+155. Find the largest number using a loop.
+156. Find the smallest number using a loop.
+157. Count the number of vowels in a list of words.
+158. Print all student names starting with "A".
+159. Print each product with its corresponding price using zip().
+160. Print list elements in reverse order using a loop.
+-------------------------------------------------------------------------------
+
+Level 3 – Advanced Python List Practice
+Advanced
+
+Category 13: List Comprehension (161–175)
+
+161. Create a new list containing squares of numbers from 1 to 10.
+162. Create a list containing cubes of numbers from 1 to 10.
+163. Extract only even numbers using list comprehension.
+164. Extract only odd numbers.
+165. Extract numbers greater than 50.
+166. Convert all fruit names into uppercase.
+167. Convert all student names into lowercase.
+168. Extract words having more than five characters.
+169. Create a list containing the length of each word.
+170. Extract positive numbers from a list.
+171. Extract negative numbers from a list.
+172. Create a list of numbers divisible by both 2 and 3.
+173. Replace all negative numbers with zero.
+174. Remove duplicate values using list comprehension.
+175. Create a new list containing only the first letter of each word.
+
+-------------------------------------------------------------------------------
+
+Category 14: Nested Lists (176–190)
+
+176. Create a nested list containing three student records.
+177. Access the first inner list.
+178. Access the second element of the second inner list.
+179. Update an element inside a nested list.
+180. Add a new inner list.
+181. Add an element to an existing inner list.
+182. Remove an inner list using pop().
+183. Loop through a nested list.
+184. Print all elements of a nested list using nested loops.
+185. Calculate the sum of all numbers in a nested list.
+186. Find the largest number in a nested list.
+187. Flatten a nested list into a single list.
+188. Create a nested list representing a 3 × 3 matrix.
+189. Calculate the sum of each row in a matrix.
+190. Calculate the sum of each column in a matrix.
+
+-------------------------------------------------------------------------------
+
+Category 15: Duplicate and Unique Elements (191–202)
+
+191. Find all duplicate elements in a list.
+192. Remove duplicates while preserving the original order.
+193. Find all unique elements.
+194. Count the frequency of each element.
+195. Find the element that appears most frequently.
+196. Find the element that appears least frequently.
+197. Find elements that occur exactly twice.
+198. Find elements that occur more than twice.
+199. Find common elements between three lists.
+200. Find elements that exist in the first list but not in the second.
+201. Find elements that exist in either list but not both.
+202. Find duplicate student names and remove them.
+
+-------------------------------------------------------------------------
+
+Category 16: Mathematical and Logical List Problems (203–215)
+
+203. Find the second-largest number without using sort().
+204. Find the second-smallest number without using sort().
+205. Find the sum of all even numbers.
+206. Find the sum of all odd numbers.
+207. Find the average of positive numbers only.
+208. Find the product of all non-zero numbers.
+209. Find the difference between the sum of even and odd numbers.
+210. Move all zeros to the end of a list.
+211. Move all negative numbers to the beginning.
+212. Separate even and odd numbers into two different lists.
+213. Find pairs of numbers whose sum equals a given target.
+214. Check whether a list is a palindrome.
+215. Check whether a list is sorted in ascending order.
+
+-------------------------------------------------------------------------
+
+Category 17: Advanced List Slicing and Manipulation (216–227)
+
+216. Extract every third element from a list.
+217. Reverse a list using a negative step.
+218. Extract elements from index 2 to index 8 with a step of 2.
+219. Replace elements at alternate positions.
+220. Rotate a list one position to the left.
+221. Rotate a list one position to the right.
+222. Rotate a list by a user-provided number of positions.
+223. Split a list into two equal halves.
+224. Split a list into chunks of three elements.
+225. Swap adjacent elements in a list.
+226. Move the first element to the last position.
+227. Move the last element to the first position.
+
+-------------------------------------------------------------------------------
+
+Category 18: Advanced List Methods and Built-in Functions (228–240)
+
+228. Use all() to check whether all numbers are positive.
+229. Use any() to check whether at least one number is negative.
+230. Use enumerate() to print index and value together.
+231. Use zip() to combine student names and marks.
+232. Use map() to calculate the square of each number.
+233. Use filter() to extract even numbers.
+234. Use sorted() with a custom sorting key.
+235. Use sum() with a condition to calculate the total of even numbers.
+236. Use min() and max() with a key to find the shortest and longest words.
+237. Use reversed() to iterate over a list in reverse.
+238. Use range() to access list elements using indexes.
+239. Use list() to convert a map() result into a list.
+240. Compare any() and all() with different Boolean lists.
+
+----------------------------------------------------------------------------
+
+Level 4 – Expert Python List Practice
+
+Expert challenges
+Category 19: Real-world List Applications (241–250)
+241. Create a student management list where you can add, remove, search, and display students.
+242. Create a shopping cart where users can add products, remove products, and calculate the total price.
+243. Create an employee salary list and find employees earning more than ₹30,000.
+244. Create a list of monthly expenses and calculate total, average, highest, and lowest expenses.
+245. Create an inventory list and identify products whose stock is below 10.
+246. Create a marks list and calculate the top three scores.
+247. Create a list of attendance records and calculate the attendance percentage.
+248. Create a restaurant menu list and allow users to search for available dishes.
+249. Create a task management list where users can add, complete, and remove tasks.
+250. Create a transaction history list and calculate total deposits and withdrawals.
+
+--------------------------------------------------------------------
+
+Category 20: Expert-Level List Logic Challenges (251–265)
+
+251. Find the missing number in a list containing numbers from 1 to N.
+252. Find two numbers whose sum is closest to a target value.
+253. Find the maximum sum of a contiguous sublist (Kadane's algorithm).
+254. Find the longest consecutive sequence of numbers.
+255. Find the intersection of two lists without using sets.
+256. Merge two already-sorted lists into one sorted list without using sort().
+257. Find all pairs of duplicate values and their indexes.
+258. Rotate a list by K positions without creating another list.
+259. Find the majority element that appears more than half the time.
+260. Find the longest increasing subsequence in a list.
+261. Separate a list into positive, negative, and zero values.
+262. Find the maximum product of two numbers in a list.
+263. Find all sublists whose sum equals a given target.
+264. Rearrange a list so that even and odd numbers alternate.
+265. Find the longest consecutive sequence of identical elements.
