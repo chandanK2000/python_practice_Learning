@@ -1,0 +1,460 @@
+---------------------------------------------------------------
+Python Tuples – 240+ Practice Questions
+
+Part 1 – Basic level (1–60)
+
+Topics: Creating tuples, accessing, indexing, slicing, length, membership and basic operations.
+
+---------------------------------------------------------------
+
+A. Creating tuples
+
+1. Create an empty tuple.
+
+2. Create a tuple containing five integers.
+
+3. Create a tuple containing five strings.
+
+4. Create a tuple containing five different fruits.
+
+5. Create a tuple containing different data types.
+
+6. Create a tuple containing three floating-point numbers.
+
+7. Create a tuple containing Boolean values.
+
+8. Create a tuple containing five employee names.
+
+9. Create a tuple containing student names and roll numbers.
+
+10. Create a tuple containing nested tuples.
+
+11. Create a tuple containing a single element.
+
+12. Create a tuple containing 10 numbers.
+
+13. Create a tuple using the tuple() constructor.
+
+14. Convert a list into a tuple.
+
+15. Convert a string into a tuple.
+
+---------------------------------------------------------------
+
+B. Accessing tuple elements
+
+16. Create a tuple and print its first element.
+
+17. Print the last element using positive indexing.
+
+18. Print the first element using negative indexing.
+
+19. Print the last element using negative indexing.
+
+20. Access the third element.
+
+21. Access the second-last element.
+
+22. Print all elements using indexing.
+
+23. Access an element using a variable as an index.
+
+24. Access the middle element of an odd-length tuple.
+
+25. Access the middle two elements of an even-length tuple.
+
+---------------------------------------------------------------
+
+C. Tuple slicing
+
+26. Print the first three elements.
+
+27. Print the last three elements.
+
+28. Print elements from index 1 to 4.
+
+29. Print every second element.
+
+30. Print every third element.
+
+31. Reverse a tuple using slicing.
+
+32. Print all elements except the first two.
+
+33. Print all elements except the last two.
+
+34. Print elements from index 2 to the end.
+
+35. Print elements using negative slicing.
+
+---------------------------------------------------------------
+
+D. Tuple properties
+
+36. Find the length of a tuple.
+37. Check whether a tuple is empty.
+38. Check whether 20 exists in a tuple.
+39. Check whether 100 does not exist in a tuple.
+40. Count the occurrences of a particular element.
+41. Find the index of a particular element.
+42. Check whether two tuples are equal.
+43. Compare two tuples using comparison operators.
+44. Find the minimum number in a tuple.
+45. Find the maximum number in a tuple.
+
+---------------------------------------------------------------
+
+E. Basic tuple operations
+
+46. Concatenate two tuples.
+47. Repeat a tuple three times.
+48. Find the sum of all numbers in a tuple.
+49. Find the average of tuple elements.
+50. Find the difference between maximum and minimum values.
+51. Convert a tuple into a list.
+52. Convert a list back into a tuple.
+53. Create a tuple from a range of numbers.
+54. Create a tuple from user input.
+55. Check the data type of different tuple variables.
+56. Print a tuple using a for loop.
+57. Print a tuple using a while loop.
+58. Print only even numbers from a tuple.
+59. Print only odd numbers from a tuple.
+60. Count positive and negative numbers in a tuple.
+
+---------------------------------------------------------------
+
+Part 2 – Medium level (61–120)
+
+Topics: Methods, loops, conditions, unpacking, sorting and nested tuples.
+---------------------------------------------------------------
+
+A. Tuple methods
+
+61. Use count() to count how many times 10 appears.
+62. Use index() to find the position of an element.
+63. Find the index of an element that appears multiple times.
+64. Count how many times a particular name appears.
+65. Find the index of the first occurrence of a duplicate element.
+66. Use count() to identify repeated numbers.
+67. Find all elements that occur more than once.
+68. Find elements that occur exactly once.
+69. Count the frequency of each element in a tuple.
+70. Identify the most frequently occurring element.
+
+---------------------------------------------------------------
+
+B. Adding, removing and updating
+
+71. Add an element to a tuple by converting it into a list.
+72. Add multiple elements to a tuple.
+73. Insert an element at a specific position.
+74. Remove an element from a tuple using list conversion.
+75. Remove all occurrences of a particular element.
+76. Remove duplicate elements from a tuple.
+77. Update the first element of a tuple using list conversion.
+78. Update the last element of a tuple.
+79. Replace a particular value in a tuple.
+80. Delete an entire tuple variable.
+
+---------------------------------------------------------------
+
+C. Tuple unpacking
+
+81. Unpack a tuple into three variables.
+82. Unpack a tuple containing five elements.
+83. Unpack a tuple into two variables.
+84. Swap two variables using tuple unpacking.
+85. Use the * operator to collect remaining elements.
+86. Unpack the first element and collect the remaining elements.
+87. Unpack the last element separately.
+88. Use unpacking with nested tuples.
+89. Unpack employee details into separate variables.
+90. Unpack student details into name, age and marks.
+
+---------------------------------------------------------------
+
+D. Loops and conditions
+
+91. Print all elements greater than 50.
+92. Print all numbers divisible by 5.
+93. Find the sum of even numbers.
+94. Find the sum of odd numbers.
+95. Count numbers greater than 100.
+96. Find the second-largest number.
+97. Find the second-smallest number.
+98. Find all duplicate elements.
+99. Find all unique elements.
+100. Create a new tuple containing only positive numbers.
+101. Create a new tuple containing only strings.
+102. Create a tuple containing numbers greater than the average.
+103. Create a tuple containing numbers smaller than the average.
+104. Find the sum of elements at even indexes.
+105. Find the sum of elements at odd indexes.
+
+---------------------------------------------------------------
+
+E. Sorting and nested tuples
+
+106. Sort a tuple in ascending order.
+107. Sort a tuple in descending order.
+108. Sort a tuple of strings alphabetically.
+109. Sort a tuple of employee records by salary.
+110. Sort a tuple of student records by marks.
+111. Access an element inside a nested tuple.
+112. Access the second nested tuple.
+113. Find the length of each nested tuple.
+114. Flatten a nested tuple containing one level of nesting.
+115. Find the sum of all numbers in a nested tuple.
+116. Extract all names from a nested tuple.
+117. Extract all salaries from employee records.
+118. Find the employee with the highest salary.
+119. Find the student with the lowest marks.
+120. Convert a nested list into a nested tuple.
+
+---------------------------------------------------------------
+
+Part 3 – Advanced level (121–180)
+
+Topics: Complex logic, nested structures, tuple transformations, functions, lambda and combinations.
+
+A. Advanced tuple manipulation
+
+121. Reverse a tuple without using slicing.
+122. Reverse a tuple using a loop.
+123. Remove duplicate values while preserving original order.
+124. Find the common elements between two tuples.
+125. Find the elements present in the first tuple but not the second.
+126. Find the elements present in either tuple but not both.
+127. Combine two tuples and remove duplicates.
+128. Find the intersection of three tuples.
+129. Find the union of three tuples.
+130. Check whether one tuple is a subset of another.
+131. Check whether two tuples have the same elements regardless of order.
+132. Find the longest string in a tuple.
+133. Find the shortest string in a tuple.
+134. Find the longest tuple inside a nested tuple.
+135. Find the smallest nested tuple based on its length.
+136. Separate integers and strings into two different tuples.
+137. Separate positive, negative and zero values into three tuples.
+138. Move all zero values to the end of a new tuple.
+139. Rotate a tuple one position to the left.
+140. Rotate a tuple one position to the right.
+
+---------------------------------------------------------------
+
+B. Advanced sorting and transformations
+
+141. Sort a tuple based on the length of its strings.
+142. Sort employee records by salary in descending order.
+143. Sort student records by marks and then by name.
+144. Sort a nested tuple based on the second element.
+145. Sort a tuple of words by their last character.
+146. Find the top three largest numbers in a tuple.
+147. Find the bottom three smallest numbers in a tuple.
+148. Create a tuple containing the squares of all numbers.
+149. Create a tuple containing the cubes of all numbers.
+150. Create a tuple containing the lengths of all strings.
+151. Create a tuple containing the first character of each string.
+152. Create a tuple containing the last character of each string.
+153. Convert every string in a tuple to uppercase.
+154. Convert every string in a tuple to lowercase.
+155. Remove empty strings from a tuple.
+
+---------------------------------------------------------------
+
+C. Nested tuples and real-world data
+
+156. Create a nested tuple containing five students and their marks.
+157. Calculate the total marks of every student.
+158. Calculate the average marks of every student.
+159. Find the student with the highest total marks.
+160. Find the student with the lowest total marks.
+161. Display students who scored above 80.
+162. Find employees earning more than 50,000.
+163. Calculate the total salary of all employees.
+164. Find the department with the highest-paid employee.
+165. Group employees based on their departments.
+166. Extract unique departments from employee records.
+167. Find the average salary of each department.
+168. Find the employee with the longest name.
+169. Find the number of employees in each department.
+170. Create a tuple of product names and prices, then find the most expensive product.
+
+---------------------------------------------------------------
+
+D. Functions and advanced concepts
+
+171. Write a function that accepts a tuple and returns its sum.
+172. Write a function that returns the largest and smallest values.
+173. Write a function that checks whether a tuple is a palindrome.
+174. Write a function that counts duplicate elements.
+175. Write a function that returns a tuple containing even and odd numbers separately.
+176. Write a function that accepts two tuples and returns their common elements.
+177. Write a function that returns a tuple of unique elements.
+178. Use lambda with sorted() to sort nested tuples.
+179. Use map() to square every number in a tuple.
+180. Use filter() to extract even numbers from a tuple.
+
+---------------------------------------------------------------
+
+Part 4 – Interview and real-world questions (181–240)
+
+These questions test your conceptual understanding, output prediction, debugging and practical Python skills.
+
+A. Interview theory questions
+
+181. What is a tuple in Python?
+182. What is the difference between a list and a tuple?
+183. What does immutable mean?
+184. What does ordered mean in Python?
+185. Are tuples mutable or immutable?
+186. Can a tuple contain duplicate values?
+187. Can a tuple contain different data types?
+188. Can a tuple contain another tuple?
+189. Can a tuple contain a list?
+190. Can we access tuple elements using negative indexing?
+191. Can we modify a tuple after creating it?
+192. How do you create a tuple with only one element?
+193. Why is a comma necessary when creating a single-element tuple?
+194. What happens when you try to modify a tuple element?
+195. What is the difference between count() and index()?
+196. How many built-in methods does a tuple have?
+197. What is tuple packing?
+198. What is tuple unpacking?
+199. What is extended unpacking using *?
+200. Can we delete an individual tuple element?
+201. Can we delete an entire tuple?
+202. Can we concatenate two tuples?
+203. Can we repeat a tuple?
+204. Can tuples be used as dictionary keys?
+205. Under what conditions can a tuple be used as a dictionary key?
+206. What is the difference between () and (5,)?
+207. What is the difference between tuple() and list()?
+208. Is a tuple faster than a list?
+209. When should you use a tuple instead of a list?
+210. What happens if you put a mutable list inside a tuple?
+
+---------------------------------------------------------------
+
+B. Predict the output
+
+211. Predict the output:
+a = (10, 20, 30)print(a[1])
+
+
+
+212. Predict the output:
+a = (1, 2, 3, 4, 5)print(a[-2])
+
+
+
+213. Predict the output:
+a = (10, 20, 30, 40)print(a[1:3])
+
+
+
+214. Predict the output:
+a = (5, 10, 5, 20, 5)print(a.count(5))
+
+
+
+215. Predict the output:
+a = (10, 20, 30, 40)print(a[::-1])
+
+
+
+216. Predict the output:
+a = (1, 2, 3)b = (4, 5)print(a + b)
+
+
+
+217. Predict the output:
+a = (10, 20)print(a * 3)
+
+
+
+218. Predict the output:
+a = (10, 20, 30)x, y, z = aprint(x, y, z)
+
+
+
+219. Predict the output:
+a = (10, 20, 30, 40, 50)x, *y = aprint(x)print(y)
+
+
+
+220. Predict the output:
+a = (1, 2, 3)print(2 in a)
+
+---------------------------------------------------------------
+
+
+C. Debugging questions
+
+221. Find and correct the error:
+a = (10, 20, 30)a[0] = 100print(a)
+
+
+
+222. Find and correct the error:
+a = (10)print(type(a))
+
+
+
+223. Find and correct the error:
+a = (10, 20, 30)a.append(40)
+
+
+
+224. Find and correct the error:
+a = (10, 20, 30)a.remove(20)
+
+
+
+225. Find and correct the error:
+a = (10, 20, 30)x, y = a
+
+
+
+226. Correct the following code to print all tuple elements:
+a = (10, 20, 30, 40)for i in range(len(a)):    print(a[i+1])
+
+
+
+227. Correct the following code to find the sum:
+a = (10, 20, 30)total = 0for i in a:    total = iprint(total)
+
+
+
+228. Correct the following code to find duplicates:
+a = (10, 20, 10, 30, 20)for i in a:    if a.count(i) == 1:        print(i)
+
+
+
+229. Correct the following code to reverse a tuple:
+a = (1, 2, 3, 4)print(a[::0])
+
+
+
+230. Correct the following code to access the last element:
+a = (10, 20, 30, 40)print(a[4])
+
+---------------------------------------------------------------
+
+
+D. Real-world programming challenges
+
+231. Create a tuple of employee records containing ID, name, department and salary. Display all employees.
+232. Create a student marks tuple and calculate total, average and percentage.
+233. Create a tuple of five products and their prices. Display the cheapest and most expensive products.
+234. Create a tuple of cricket players and their scores. Find the highest scorer.
+235. Create a tuple of monthly sales figures. Find the total yearly sales.
+236. Create a tuple of temperatures. Find the highest, lowest and average temperature.
+237. Create a tuple of bank transactions containing transaction ID, type and amount. Calculate the total credit and debit.
+238. Create a tuple of customer records and find customers whose purchase amount exceeds 10,000.
+239. Create a nested tuple containing department names and employee records. Display department-wise employee information.
+240. Create a tuple of student records, sort them by marks, identify the top three students and calculate the class average.
+
+
+---------------------------------------------------------------
