@@ -1,0 +1,443 @@
+-------------------------------------------------------------------
+Module 1: Basic Level (1–50)
+
+A. Set creation and properties
+
+1. Create an empty set in Python.
+
+2. Create a set containing 5 integer values.
+
+3. Create a set containing 5 string values.
+
+4. Create a set containing integers and strings.
+
+5. Create a set with duplicate values and print it.
+
+6. Find the length of a set using len().
+
+7. Check the data type of a set using type().
+
+8. Create a set using the set() constructor.
+
+9. Convert a list into a set.
+
+10. Convert a tuple into a set.
+
+11. Create a set from a string.
+
+12. Create a set containing 10 numbers and print it.
+
+13. Check whether a set is empty.
+
+14. Create an empty set and add 5 elements.
+
+15. Explain the difference between {} and set().
+
+-------------------------------------------------------------------
+
+B. Adding and removing elements
+
+16. Add one element using add().
+
+17. Add 5 elements one by one.
+
+18. Add multiple elements using update().
+
+19. Add elements from a list into a set.
+
+20. Add elements from a tuple into a set.
+
+21. Remove an element using remove().
+
+22. Remove an element using discard().
+
+23. Understand the difference between remove() and discard().
+
+24. Remove an element using pop().
+
+25. Clear all elements using clear().
+
+26. Copy a set using copy().
+
+27. Delete a set using del.
+
+28. Check whether an element exists in a set.
+
+29. Check whether an element does not exist in a set.
+
+30. Add a duplicate element and observe the output.
+
+-------------------------------------------------------------------
+
+C. Loops and conditions
+
+31. Print all elements using a for loop.
+
+32. Print all elements using a while loop (hint: convert to a list).
+
+33. Print only even numbers from a set.
+
+34. Print only odd numbers from a set.
+
+35. Print numbers greater than 50.
+
+36. Count how many elements are present in a set.
+
+37. Calculate the sum of all numeric elements.
+
+38. Find the maximum element.
+
+39. Find the minimum element.
+
+40. Find the average of all elements.
+
+-------------------------------------------------------------------
+
+D. Basic logic building
+
+41. Create a set of numbers from 1 to 20.
+
+42. Create a set of even numbers from 1 to 50.
+
+43. Create a set of odd numbers from 1 to 50.
+
+44. Create a set of squares from 1 to 10.
+
+45. Create a set of cubes from 1 to 10.
+
+46. Remove all negative numbers from a set.
+
+47. Separate positive and negative numbers into two sets.
+
+48. Find duplicate values in a list using sets.
+
+49. Remove duplicate names from a list.
+
+50. Check whether two sets contain the same elements.
+
+-------------------------------------------------------------------
+
+Module 2: Medium Level (51–110)
+
+Focus: Set operations, comparisons, conversions and problem solving.
+
+A. Set operations
+
+51. Find the union of two sets using union().
+52. Find the union using the | operator.
+53. Find the intersection using intersection().
+54. Find the intersection using the & operator.
+55. Find the difference using difference().
+56. Find the difference using the - operator.
+57. Find the symmetric difference using symmetric_difference().
+58. Find symmetric difference using the ^ operator.
+59. Find common elements between three sets.
+60. Find unique elements from two sets.
+61. Find elements that exist only in the first set.
+62. Find elements that exist only in the second set.
+63. Find elements that exist in either set but not both.
+64. Find common elements between four sets.
+65. Find the union of three sets.
+
+-------------------------------------------------------------------
+
+B. Set comparisons
+
+
+66. Check whether one set is a subset of another.
+67. Check whether one set is a superset of another.
+68. Check whether two sets are disjoint.
+69. Check whether two sets are equal.
+70. Use issubset().
+71. Use issuperset().
+72. Use isdisjoint().
+73. Check whether a set is a proper subset of another.
+74. Check whether two sets have no common elements.
+75. Compare three sets and identify the largest set.
+
+-------------------------------------------------------------------
+
+C. List, tuple and dictionary operations
+
+76. Convert a set into a list.
+77. Convert a set into a tuple.
+78. Sort set elements after converting them into a list.
+79. Convert a list with duplicates into a unique list using a set.
+80. Convert a tuple with duplicates into a unique tuple using a set.
+81. Find common values between two lists using sets.
+82. Find unique values from two lists.
+83. Find duplicate elements between two lists.
+84. Find elements present in a list but missing from another list.
+85. Extract unique dictionary keys using a set.
+86. Find common keys between two dictionaries.
+87. Convert dictionary keys into a set.
+88. Convert a string into a set of unique characters.
+89. Find unique words from a sentence.
+90. Count unique words in a paragraph.
+
+-------------------------------------------------------------------
+
+D. Logic-building challenges
+
+91. Find duplicate numbers in a list.
+92. Find numbers that occur only once in a list.
+93. Remove duplicate characters from a string.
+94. Find common characters between two strings.
+95. Find characters present in the first string but not the second.
+96. Find all unique vowels in a string.
+97. Find unique consonants in a string.
+98. Find common words between two sentences.
+99. Find words that are unique to each sentence.
+100. Find missing numbers from a sequence using sets.
+101. Find common student names between two classes.
+102. Find students enrolled in only one of two courses.
+103. Find students enrolled in both courses.
+104. Find unique products purchased by customers.
+105. Find common products purchased by two customers.
+106. Find unique email addresses from a list.
+107. Check whether two strings contain the same unique characters.
+108. Find duplicate mobile numbers in a dataset.
+109. Find common elements between a list and a tuple.
+110. Find all unique numbers from multiple lists.
+
+
+-------------------------------------------------------------------
+
+Module 3: Advanced Level (111–160)
+Focus: Set comprehension, nested logic, real-world scenarios and optimization.
+
+A. Set comprehension
+
+
+111. Create a set of squares using set comprehension.
+112. Create a set of even numbers using set comprehension.
+113. Create a set of odd numbers using set comprehension.
+114. Create a set of numbers divisible by 5.
+115. Create a set of numbers greater than 100 from a list.
+116. Create a set of uppercase characters from a string.
+117. Create a set of unique vowels using comprehension.
+118. Create a set of word lengths from a sentence.
+119. Create a set of first characters from a list of names.
+120. Create a set of numbers whose squares are greater than 50.
+
+-------------------------------------------------------------------
+
+B. Advanced set operations
+
+121. Find the union of five different sets.
+122. Find the intersection of five different sets.
+123. Find elements common to all sets.
+124. Find elements that appear in exactly two sets.
+125. Find elements that appear in exactly one set.
+126. Find elements that appear in at least two sets.
+127. Find elements that appear in three or more sets.
+128. Find the difference between multiple sets.
+129. Find the symmetric difference of multiple sets.
+130. Find all unique elements from nested lists.
+
+-------------------------------------------------------------------
+
+C. Advanced problem solving
+
+131. Find the missing number from 1 to 100 using sets.
+132. Find two missing numbers from a sequence using sets.
+133. Find duplicate values without using nested loops.
+134. Find unique characters and their positions in a string.
+135. Find common elements across multiple student attendance lists.
+136. Find users who logged in on all seven days.
+137. Find users who logged in on at least one day.
+138. Find users who never logged in.
+139. Find products available in all warehouses.
+140. Find products available in one warehouse but not another.
+
+-------------------------------------------------------------------
+
+D. Advanced real-world challenges
+
+141. Build a unique username checker.
+142. Build an email duplicate detection program.
+143. Create a unique visitor tracking system.
+144. Find common interests between two users.
+145. Find users with common hobbies.
+146. Find unique IP addresses from server logs.
+147. Find unique search queries from website logs.
+148. Build a course enrollment comparison system.
+149. Find students who registered but never attended.
+150. Find employees assigned to multiple projects.
+151. Find unique skills among employees.
+152. Find common skills between job applicants.
+153. Build a product category uniqueness checker.
+154. Find duplicate transaction IDs.
+155. Find common permissions between two user roles.
+156. Find users who have access to all required permissions.
+157. Find unauthorized permissions using set difference.
+158. Build a simple tag management system.
+159. Find unique hashtags from social media posts.
+160. Compare two datasets and identify new, removed and common records.
+
+-------------------------------------------------------------------
+
+
+Module 4: Interview Questions (161–220)
+
+Focus: Python concepts, output prediction, debugging, tricky questions and coding interviews.
+
+A. Conceptual interview questions
+
+161. What is a set in Python?
+162. What are the main properties of a set?
+163. Why are sets called unordered collections?
+164. Does a set allow duplicate elements?
+165. Does a set support indexing?
+166. Can we access set elements using thisset[0]?
+167. What is the difference between a list and a set?
+168. What is the difference between a tuple and a set?
+169. What is the difference between a set and a dictionary?
+170. What is the difference between {} and set()?
+171. Are sets mutable or immutable?
+172. Can we modify set elements after creation?
+173. Can a set contain a list?
+174. Can a set contain a tuple?
+175. Why must set elements be hashable?
+176. What is the difference between add() and update()?
+177. What is the difference between remove() and discard()?
+178. What is the difference between pop() and remove()?
+179. What is the difference between clear() and del?
+180. What is the difference between union() and update()?
+
+-------------------------------------------------------------------
+
+B. Output prediction questions
+
+Predict the output before executing the code.
+a = {10, 20, 30, 40}a.add(50)print(len(a))
+
+
+
+a = {1, 2, 3, 4}a.add(3)print(a)
+
+
+
+a = {10, 20, 30}a.discard(50)print(a)
+
+
+
+a = {10, 20, 30}a.remove(20)print(a)
+
+
+
+a = {1, 2, 3}b = {3, 4, 5}print(a | b)
+
+
+
+a = {1, 2, 3}b = {3, 4, 5}print(a & b)
+
+
+
+a = {1, 2, 3, 4}b = {3, 4, 5}print(a - b)
+
+
+
+a = {1, 2, 3}b = {3, 4, 5}print(a ^ b)
+
+
+
+a = {10, 20, 30}print(20 in a)
+
+
+
+a = {10, 20, 30}print(50 not in a)
+
+
+
+a = {1, 2, 3}b = a.copy()b.add(4)print(a)print(b)
+
+
+
+a = {1, 2, 3}a.clear()print(len(a))
+
+
+
+a = {1, 2, 3}b = {1, 2, 3, 4}print(a.issubset(b))
+
+
+
+a = {1, 2, 3, 4}b = {1, 2}print(a.issuperset(b))
+
+
+
+a = {1, 2}b = {3, 4}print(a.isdisjoint(b))
+
+
+-------------------------------------------------------------------
+
+C. Debugging questions
+
+196. Find and fix the error in this code.
+a = {}a.add(10)print(a)
+
+
+
+197. Find and fix the error.
+a = {10, 20, 30}print(a[0])
+
+
+
+198. Find and fix the error.
+a = {[1, 2], [3, 4]}print(a)
+
+
+
+199. Why does this code produce an error?
+a = {10, 20, 30}a.remove(50)
+
+
+
+200. Fix the code to add multiple values.
+a = {1, 2, 3}a.add([4, 5, 6])print(a)
+
+
+
+201. Fix the code to remove duplicates from a list.
+numbers = [1, 2, 2, 3, 3, 4]numbers.remove_duplicates()print(numbers)
+
+
+
+202. Fix the code to find common elements.
+a = {1, 2, 3}b = {2, 3, 4}print(a + b)
+
+
+
+203. Fix the code to find unique elements from two sets.
+a = {1, 2, 3}b = {3, 4, 5}print(a.unique(b))
+
+
+
+204. Explain why modifying a set while iterating over it can raise an error. Fix the following code.
+a = {1, 2, 3, 4}for x in a:    if x == 2:        a.remove(x)
+
+
+
+205. Fix this code to find duplicate values.
+numbers = [10, 20, 10, 30, 20]duplicates = set()for x in numbers:    if x in duplicates:        print(x)
+
+-------------------------------------------------------------------
+
+
+D. Tricky interview questions
+
+206. Can a set contain True and 1 together? What happens and why?
+207. Can a set contain False and 0 together?
+208. Can a set contain None?
+209. Can a set contain multiple None values?
+210. Can a set contain a frozen set?
+211. What is frozenset()?
+212. What is the difference between set and frozenset?
+213. Can we add elements to a frozenset?
+214. Can we use a frozenset as a dictionary key?
+215. What is hashing in Python?
+216. What is the average time complexity of checking whether an element exists in a set?
+217. What is the average time complexity of adding an element to a set?
+218. Why are sets generally faster than lists for membership checking?
+219. What happens internally when we add a duplicate element to a set?
+220. When should you use a set instead of a list in real-world applications?
