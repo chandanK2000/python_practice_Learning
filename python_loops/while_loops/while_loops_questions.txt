@@ -1,0 +1,413 @@
+--------------------------------------------------------------------
+
+Python While Loop – 250 Practice Questions
+
+--------------------------------------------------------------------
+
+Level 1 – Basic While Loop (1–50)
+
+Goal: Understand initialization, condition, increment and decrement.
+
+1. Print numbers from 1 to 10 using a while loop.
+
+2. Print numbers from 1 to 20.
+
+3. Print numbers from 10 to 1 in reverse order.
+
+4. Print numbers from 1 to 100.
+
+5. Print all even numbers from 1 to 50.
+
+6. Print all odd numbers from 1 to 50.
+
+7. Print multiples of 5 from 1 to 100.
+
+8. Print multiples of 10 from 1 to 200.
+
+9. Print numbers from 50 to 1 in reverse order.
+
+10. Print numbers from 100 to 1 in reverse order.
+
+11. Print numbers from 1 to 10 with their squares.
+
+12. Print numbers from 1 to 10 with their cubes.
+
+13. Print the multiplication table of 5.
+
+14. Print the multiplication table of a user-entered number.
+
+15. Print multiplication tables from 1 to 10.
+
+16. Calculate the sum of numbers from 1 to 10.
+17. Calculate the sum of numbers from 1 to 100.
+18. Calculate the sum of all even numbers from 1 to 100.
+19. Calculate the sum of all odd numbers from 1 to 100.
+20. Calculate the sum of multiples of 7 from 1 to 100.
+21. Count how many numbers are between 1 and 100.
+22. Count even numbers between 1 and 100.
+23. Count odd numbers between 1 and 100.
+24. Find the product of numbers from 1 to 5.
+25. Calculate the factorial of a number.
+26. Print the first 10 natural numbers.
+27. Print the first 10 whole numbers.
+28. Print the first 10 integers in reverse order, starting from 0.
+29. Print numbers between two user-entered limits.
+30. Print numbers divisible by both 3 and 5 between 1 and 100.
+31. Find the sum of numbers divisible by 3 between 1 and 100.
+32. Print all numbers that are not divisible by 2 between 1 and 50.
+33. Print the first 20 multiples of 3.
+34. Print the first 15 multiples of 7.
+35. Display the numbers and their double values from 1 to 10.
+36. Display numbers and their half values from 1 to 10.
+37. Print the ASCII values of characters A to Z.
+38. Print the characters from A to Z.
+39. Print the characters from Z to A.
+40. Print the first 10 characters of a given string using a while loop.
+41. Count the characters in a string without using len().
+42. Print each character of a string on a separate line.
+43. Print a string in reverse order using a while loop.
+44. Count the number of vowels in a string.
+45. Count the number of consonants in a string.
+46. Count the spaces in a sentence.
+47. Count the digits in a string.
+48. Calculate the sum of digits of an integer.
+49. Reverse a given integer.
+50. Find the last digit of a number repeatedly until all digits are processed.
+
+--------------------------------------------------------------------
+
+Level 2 – Medium Questions (51–100)
+
+Goal: Improve mathematical logic, conditions, counters and accumulators.
+51. Check whether a number is positive, negative or zero using a while loop.
+52. Check whether a number is even or odd.
+53. Check whether a number is prime.
+54. Print all prime numbers between 1 and 100.
+55. Count the number of prime numbers between 1 and 100.
+56. Check whether a number is a palindrome.
+57. Check whether a number is an Armstrong number.
+58. Print all Armstrong numbers between 1 and 1000.
+59. Check whether a number is a perfect number.
+60. Print all perfect numbers between 1 and 1000.
+61. Check whether a number is a strong number.
+62. Check whether a number is an automorphic number.
+63. Find the GCD/HCF of two numbers.
+64. Find the LCM of two numbers.
+65. Generate the Fibonacci series up to N terms.
+66. Generate Fibonacci numbers up to a specified maximum value.
+67. Find the sum of digits of a number.
+68. Find the product of digits of a number.
+69. Count the number of digits in an integer.
+70. Find the first digit of a number.
+71. Find the largest digit in a number.
+72. Find the smallest digit in a number.
+73. Count how many times a particular digit occurs in a number.
+74. Check whether a number contains digit 0.
+75. Find the difference between the sum of even and odd digits.
+76. Convert a decimal number to binary.
+77. Convert a binary number to decimal.
+78. Convert a decimal number to octal.
+79. Find the power of a number without using **.
+80. Calculate the square root of a number using an iterative approach.
+81. Count uppercase and lowercase letters in a string.
+82. Count alphabets, digits and special characters in a string.
+83. Check whether a string is a palindrome.
+84. Remove all spaces from a string using a while loop.
+85. Count the frequency of a particular character in a string.
+86. Find the first occurrence of a character in a string.
+87. Find the last occurrence of a character in a string.
+88. Replace all occurrences of a character with another character.
+89. Extract only numeric characters from a string.
+90. Extract only alphabetic characters from a string.
+91. Print every second character of a string.
+92. Print a string without its vowels.
+93. Count the number of words in a sentence.
+94. Find the longest word in a sentence using a while loop.
+95. Reverse each character of a string.
+96. Check whether two strings have the same length without using len().
+97. Find the sum of all elements in a list using a while loop.
+98. Find the largest element in a list without using max().
+99. Find the smallest element in a list without using min().
+100. Count positive, negative and zero values in a list.
+
+--------------------------------------------------------------------
+
+Level 3 – Advanced Questions (101–160)
+
+Goal: Develop complex logic and solve problems without depending on built-in functions.
+101. Implement a calculator that repeatedly accepts operations until the user selects Exit.
+102. Create a number guessing game with unlimited attempts.
+103. Create a number guessing game with only five attempts.
+104. Create a program that asks the user to enter a password until the correct password is provided.
+105. Allow only three incorrect password attempts before locking the login.
+106. Create an OTP verification program with a maximum of three attempts.
+107. Create a menu-driven application using a while loop.
+108. Create a menu that repeats until the user selects Exit.
+109. Create a program that keeps accepting numbers until the user enters 0.
+110. Calculate the sum of all entered numbers until the user enters a negative number.
+111. Find the average of numbers entered by the user until they enter 0.
+112. Find the maximum number from user inputs until the user enters -1.
+113. Find the minimum number from user inputs until the user enters -1.
+114. Count how many positive and negative numbers the user enters until 0.
+115. Create a program that keeps asking for valid age until the user enters an age between 18 and 60.
+116. Create a program that validates a number until the user enters a positive integer.
+117. Create a program that accepts only numbers divisible by 5.
+118. Create a program that accepts marks between 0 and 100 and rejects invalid values.
+119. Create a program that accepts a valid month number between 1 and 12.
+120. Create a program that keeps accepting product prices until the user enters "done".
+121. Traverse a nested list using nested while loops.
+122. Print a 5 × 5 matrix using nested while loops.
+123. Print a multiplication table from 1 to 10 using nested while loops.
+124. Print a right-angled triangle pattern using nested while loops.
+125. Print an inverted right-angled triangle.
+126. Print a square star pattern.
+127. Print a pyramid star pattern.
+128. Print a number triangle pattern.
+129. Print a reverse number triangle pattern.
+130. Print a Floyd's triangle pattern.
+131. Print a hollow square pattern using stars.
+132. Print a multiplication grid using nested while loops.
+133. Iterate over a list and print its index and value.
+134. Search for an element in a list without using in.
+135. Count the occurrences of each element in a list.
+136. Remove duplicate elements from a list without using set().
+137. Create a new list containing only even numbers.
+138. Create a new list containing only odd numbers.
+139. Reverse a list without using reverse() or slicing.
+140. Copy one list into another using a while loop.
+141. Find the second-largest element in a list.
+142. Find the second-smallest element in a list.
+143. Find the sum of alternate elements in a list.
+144. Find the common elements between two lists without using set operations.
+145. Merge two lists using a while loop.
+146. Sort a list in ascending order using bubble sort and while loops.
+147. Sort a list in descending order using while loops.
+148. Rotate a list to the left by one position.
+149. Rotate a list to the right by one position.
+150. Find the missing number in a sequence from 1 to N.
+151. Traverse a dictionary using a while loop and a list of its keys.
+152. Print all dictionary keys and values using a while loop.
+153. Find the sum of all numeric values in a dictionary.
+154. Find the key having the maximum numeric value.
+155. Find the key having the minimum numeric value.
+156. Count how many dictionary values are greater than 100.
+157. Create a new dictionary containing only active users.
+158. Search for a key in a dictionary without using in.
+159. Update dictionary values by multiplying each numeric value by 2.
+160. Convert two lists into a dictionary using a while loop.
+
+--------------------------------------------------------------------
+
+Level 4 – Interview Questions (161–190)
+
+Goal: Test your understanding of while loop behaviour, edge cases and debugging.
+
+161. What is a while loop in Python?
+162. What is the difference between for and while loops?
+163. What happens if the while condition is always True?
+164. What is an infinite loop?
+165. How can you stop an infinite loop?
+166. What is the purpose of break?
+167. What is the purpose of continue?
+168. What is the purpose of pass?
+169. What is the difference between break and continue?
+170. Can we use else with a while loop?
+171. When does the else block of a while loop execute?
+172. Does the while loop's else execute when break is used?
+173. Can we use nested while loops?
+174. What happens if we forget to increment the counter?
+175. Can a while loop execute zero times?
+176. Can we use a while loop without a condition?
+177. How do we traverse a list using a while loop?
+178. How do we traverse a dictionary using a while loop?
+179. What is the difference between a counter and an accumulator?
+180. How do you avoid an off-by-one error in a while loop?
+181. Predict the output:
+i = 1while i <= 5:    print(i)    i += 1
+
+
+
+182. Predict the output:
+i = 5while i > 0:    print(i)    i -= 1
+
+
+
+183. Predict the output:
+i = 1while i <= 5:    if i == 3:        break    print(i)    i += 1
+
+
+
+184. Predict the output:
+i = 0while i < 5:    i += 1    if i == 3:        continue    print(i)
+
+
+
+185. Predict the output:
+i = 1while i <= 3:    print(i)    i += 1else:    print("Completed")
+
+
+
+186. Predict the output:
+i = 1while i <= 5:    if i == 3:        break    print(i)    i += 1else:    print("Finished")
+
+
+
+187. Find the mistake:
+i = 1while i <= 10:    print(i)
+
+
+
+188. Explain why this program produces an infinite loop and fix it:
+i = 10while i >= 1:    print(i)    i += 1
+
+
+
+189. Write a program to print numbers from 1 to 20 but skip multiples of 3 using continue.
+190. Write a program to find the first number divisible by both 7 and 11 between 1 and 500 using break.
+
+--------------------------------------------------------------------
+
+Level 5 – Real-World Scenarios (191–220)
+
+Goal: Apply while loop logic to actual software applications.
+191. Login System: Ask the user to enter username and password until the correct credentials are provided.
+192. Login System: Lock the account after three failed attempts.
+193. OTP System: Allow a maximum of three OTP verification attempts.
+194. ATM: Create a menu for Check Balance, Deposit, Withdraw and Exit.
+195. ATM: Keep asking for withdrawal amount until the amount is valid.
+196. Banking: Accept deposits until the user chooses to stop and calculate total deposits.
+197. Banking: Maintain a transaction history using a list and while loop.
+198. Shopping: Keep accepting product prices until the user enters 0, then calculate the total.
+199. Shopping: Apply discounts to every product based on its price.
+200. Shopping: Create a shopping cart where users can add and remove products until checkout.
+201. Student Management: Accept marks for multiple students and calculate their average.
+202. Student Management: Keep accepting student details until the user chooses Exit.
+203. Student Management: Count how many students passed and failed.
+204. Student Management: Find the student with the highest marks from a list of student records.
+205. Warehouse: Accept stock entries until the user chooses Exit and calculate total stock.
+206. Warehouse: Display low-stock products using a while loop.
+207. Warehouse: Keep asking for a valid product quantity before allowing stock dispatch.
+208. Inventory: Search for a product by ID using a while loop.
+209. Inventory: Update the stock of multiple products using a while loop.
+210. Inventory: Display all products whose stock is below the reorder level.
+211. Employee Management: Calculate salary for multiple employees.
+212. Employee Management: Keep accepting attendance records until the user chooses Exit.
+213. Finance App: Accept multiple income entries and calculate total income.
+214. Finance App: Accept multiple expense entries and calculate total expenses.
+215. Finance App: Calculate monthly balance using income and expenses.
+216. Finance App: Keep accepting transactions until the user enters "done".
+217. Restaurant: Create a food ordering menu that repeats until checkout.
+218. Hospital: Keep accepting patient details and count emergency cases.
+219. Parking: Calculate parking charges for multiple vehicles until the user chooses Exit.
+220. Quiz Application: Ask multiple questions, calculate the score and display the final result.
+
+--------------------------------------------------------------------
+
+Level 6 – Output Prediction & Debugging (221–250)
+
+Goal: Become strong at tracing code, identifying bugs and predicting results.
+
+221. Predict the output:
+x = 1while x <= 4:    print(x * 2)    x += 1
+
+
+
+222. Predict the output:
+x = 10while x >= 2:    print(x)    x -= 2
+
+
+
+223. Predict the output:
+x = 1total = 0while x <= 5:    total += x    x += 1print(total)
+
+
+
+224. Predict the output:
+x = 1while x <= 5:    if x % 2 == 0:        print("Even")    else:        print("Odd")    x += 1
+
+
+
+225. Predict the output:
+x = 1while x <= 5:    x += 1    if x == 4:        continue    print(x)
+
+
+
+226. Predict the output:
+x = 1while x <= 3:    y = 1    while y <= 2:        print(x, y)        y += 1    x += 1
+
+
+
+227. Predict the output:
+x = 1while x <= 5:    print(x)    if x == 3:        break    x += 1
+
+
+
+228. Predict the output:
+x = 1while x <= 3:    print(x)    x += 1else:    print("Loop completed")
+
+
+
+229. Predict the output:
+x = 5while x > 0:    print(x)    x -= 1    if x == 2:        break
+
+
+
+230. Predict the output:
+x = 1total = 0while x <= 10:    if x % 2 == 0:        total += x    x += 1print(total)
+
+
+
+231. Find the logical error:
+i = 1while i < 10:    if i % 2 == 0:        print(i)        i += 1
+
+
+
+232. Correct this program to print numbers from 10 to 1:
+i = 1while i >= 10:    print(i)    i -= 1
+
+
+
+233. Correct this factorial program:
+n = 5fact = 0while n > 0:    fact *= n    n -= 1print(fact)
+
+
+
+234. Find the error in this sum-of-digits program:
+n = 1234total = 0while n > 0:    digit = n % 10    total = digit    n //= 10print(total)
+
+
+
+235. Fix this reverse-number program:
+n = 12345reverse = 0while n > 0:    digit = n % 10    reverse = digit    n //= 10print(reverse)
+
+
+
+236. Fix this prime-number checking program:
+n = 7i = 2while i < n:    if n % i == 0:        print("Not Prime")    i += 1
+
+
+
+237. Identify why this loop never stops:
+i = 1while i <= 10:    if i == 5:        continue    print(i)    i += 1
+
+
+
+238. Correct the code to print only odd numbers between 1 and 20.
+i = 1while i <= 20:    if i % 2 == 0:        print(i)    i += 1
+
+
+
+239. Write a program to count the digits of a number, including the special case when the number is zero.
+240. Write a program to reverse a number while preserving its mathematical value, and explain what happens to leading zeros.
+241. Write a program to calculate factorial using a while loop and handle negative input.
+242. Write a program to print Fibonacci numbers without generating more than N terms.
+243. Write a program to find all factors of a number using a while loop.
+244. Write a program to check whether two numbers are amicable numbers.
+245. Write a program to find the sum of all prime numbers between 1 and N.
+246. Write a program to remove all occurrences of a given value from a list using a while loop.
+247. Write a program to find duplicate values in a list using nested while loops.
+248. Write a program to check whether a list is sorted in ascending order.
+249. Write a program to find the intersection of two lists without using sets.
+250. Write a program to implement a simple password-based menu system using while, nested while, break and continue.
+
+--------------------------------------------------------------------

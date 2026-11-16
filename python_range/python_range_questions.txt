@@ -1,0 +1,355 @@
+===================================================================
+
+Part 1 – Basic Level (1–50)
+Beginner
+
+A. Basic range() practice (1–15)
+
+1. Print numbers from 0 to 9 using range().
+
+2. Print numbers from 1 to 10.
+
+3. Print numbers from 1 to 20.
+
+4. Print numbers from 1 to 50.
+
+5. Print numbers from 1 to 100.
+
+6. Print numbers from 10 to 20.
+
+7. Print numbers from 20 to 30.
+
+8. Print numbers from 50 to 100.
+
+9. Print numbers from 100 to 110.
+
+10. Print numbers from 5 to 15.
+
+11. Print numbers from 0 to 50.
+
+12. Print numbers from 0 to 100.
+
+13. Print numbers from 25 to 50.
+
+14. Print numbers from 75 to 100.
+
+15. Print numbers from 200 to 250.
+
+===================================================================
+
+B. Range with step (16–30)
+
+16. Print even numbers from 2 to 20.
+
+17. Print even numbers from 2 to 100.
+
+18. Print odd numbers from 1 to 99.
+
+19. Print odd numbers from 1 to 50.
+
+20. Print numbers from 1 to 50 with a step of 2.
+
+21. Print numbers from 1 to 100 with a step of 5.
+
+22. Print numbers from 10 to 100 with a step of 10.
+
+23. Print numbers from 5 to 50 with a step of 5.
+
+24. Print numbers from 100 to 200 with a step of 10.
+
+25. Print numbers from 0 to 100 with a step of 3.
+
+26. Print multiples of 7 from 7 to 100.
+
+27. Print multiples of 9 from 9 to 100.
+
+28. Print numbers from 1 to 100 with a step of 4.
+
+29. Print numbers from 50 to 150 with a step of 5.
+
+30. Print numbers from 100 to 500 with a step of 25.
+
+===================================================================
+
+C. Reverse range (31–40)
+
+31. Print numbers from 10 to 1 in reverse.
+
+32. Print numbers from 20 to 1 in reverse.
+
+33. Print numbers from 50 to 1 in reverse.
+
+34. Print numbers from 100 to 1 in reverse.
+
+35. Print numbers from 50 to 10 in reverse.
+
+36. Print even numbers from 20 to 2 in reverse.
+
+37. Print odd numbers from 99 to 1 in reverse.
+
+38. Print numbers from 100 to 50 in reverse with a step of 5.
+
+39. Print multiples of 10 from 100 to 10 in reverse.
+
+40. Print numbers from 200 to 100 in reverse with a step of 10.
+
+
+===================================================================
+
+D. Basic mathematical problems (41–50)
+
+41. Calculate the sum of numbers from 1 to 10 using range().
+
+42. Calculate the sum of numbers from 1 to 100.
+
+43. Calculate the sum of even numbers from 1 to 50.
+
+44. Calculate the sum of odd numbers from 1 to 50.
+
+45. Print the square of numbers from 1 to 10.
+
+46. Print the cube of numbers from 1 to 10.
+
+47. Print multiplication table of 5.
+
+48. Print multiplication table of any user-entered number.
+
+49. Count how many numbers exist between 1 and 100.
+
+50. Calculate the product of numbers from 1 to 5.
+
+===================================================================
+
+Part 2 – Medium Level (51–100)
+Intermediate
+
+E. Conditional logic with range() (51–65)
+
+51. Print numbers from 1 to 100 that are divisible by 3.
+
+52. Print numbers from 1 to 100 that are divisible by 5.
+
+53. Print numbers from 1 to 100 that are divisible by both 3 and 5.
+54. Print numbers from 1 to 200 that are divisible by 7.
+55. Print numbers from 1 to 100 that are not divisible by 2.
+56. Print numbers from 1 to 100 that are not divisible by 3.
+57. Print numbers from 1 to 100 that are divisible by 2 but not by 4.
+58. Print numbers from 1 to 100 that are divisible by 3 or 7.
+59. Count numbers between 1 and 100 divisible by 5.
+60. Count even numbers between 1 and 200.
+61. Count odd numbers between 1 and 200.
+62. Find the sum of numbers divisible by 3 between 1 and 100.
+63. Find the sum of numbers divisible by both 3 and 5 between 1 and 500.
+64. Find the largest number between 1 and 100 divisible by 7.
+65. Find all numbers between 1 and 100 whose square is divisible by 4.
+
+===================================================================
+
+F. Mathematical challenges (66–80)
+
+66. Calculate the factorial of a number using range().
+67. Calculate the sum of squares from 1 to 10.
+68. Calculate the sum of cubes from 1 to 10.
+69. Calculate the sum of even numbers from 1 to N.
+70. Calculate the sum of odd numbers from 1 to N.
+71. Find the average of numbers from 1 to 100.
+72. Calculate the power of a number without using the ** operator.
+73. Generate the first N multiples of a given number.
+74. Find all factors of a given number using range().
+75. Count the total factors of a given number.
+76. Check whether a number is prime using range().
+77. Print all prime numbers between 1 and 100.
+78. Calculate the sum of prime numbers between 1 and 100.
+79. Print all perfect numbers between 1 and 1000.
+80. Find all Armstrong numbers between 1 and 1000.
+
+===================================================================
+
+G. Number sequences and series (81–90)
+
+81. Print the first 10 Fibonacci numbers using range().
+82. Generate the Fibonacci sequence up to N terms.
+83. Print the sequence 2, 4, 6, 8, 10, ... up to N terms.
+84. Print the sequence 5, 10, 15, 20, ... up to N terms.
+85. Print the sequence 1, 4, 9, 16, 25, ... up to N terms.
+86. Print the sequence 1, 8, 27, 64, 125, ... up to N terms.
+87. Print the sequence 1, 3, 6, 10, 15, ... up to N terms.
+88. Generate a sequence starting at 100 and decreasing by 7 until it reaches 0 or below.
+89. Print the first N multiples of 11 in reverse order.
+90. Generate a sequence starting from a user-entered number with a user-entered step.
+
+===================================================================
+
+H. String and list operations using range() (91–100)
+
+91. Print each character of a string using its index and range().
+92. Print a string in reverse using range().
+93. Count vowels in a string using range().
+94. Count consonants in a string using range().
+95. Print every second character of a string.
+96. Print elements of a list using index-based iteration with range().
+97. Print list elements in reverse order using range().
+98. Find the sum of list elements using range() and indexes.
+99. Find the largest element in a list using range().
+100. Find the smallest element in a list using range().
+
+===================================================================
+
+Part 3 – Advanced Level (101–150)
+
+Advanced
+I. Nested range() and number patterns (101–115)
+
+101. Print a square star pattern of 5 rows and 5 columns.
+*****
+*****
+*****
+*****
+*****
+
+
+102. Print a right-angle triangle star pattern.
+*
+**
+***
+****
+*****
+
+
+103. Print an inverted right-angle triangle.
+*****
+****
+***
+**
+*
+
+
+104. Print a pyramid star pattern.
+    *
+   ***
+  *****
+ *******
+*********
+
+
+105. Print an inverted pyramid star pattern.
+106. Print a hollow square star pattern.
+107. Print a hollow right-angle triangle.
+108. Print a number triangle.
+1
+12
+123
+1234
+12345
+
+
+109. Print the following pattern.
+1
+22
+333
+4444
+55555
+
+
+110. Print the following reverse number pattern.
+12345
+1234
+123
+12
+1
+
+
+111. Print a multiplication table from 1 to 10 using nested range() loops.
+112. Print a 10 × 10 multiplication grid.
+113. Print a checkerboard pattern using nested loops.
+114. Print a diamond star pattern.
+115. Print Floyd's triangle.
+1
+2 3
+4 5 6
+7 8 9 10
+
+===================================================================
+
+
+J. Advanced mathematical problems (116–130)
+
+116. Find all prime numbers between two user-entered numbers.
+117. Find the GCD of two numbers using a range loop.
+118. Find the LCM of two numbers using a range loop.
+119. Check whether a number is a palindrome using range-based logic.
+120. Reverse a number using a mathematical loop and range().
+121. Find the sum of digits of a number using a range-based loop over its string representation.
+122. Count the number of digits in a number using range() and string conversion.
+123. Print all three-digit Armstrong numbers.
+124. Print all strong numbers between 1 and 10000.
+125. Find all pairs of numbers between 1 and 100 whose sum equals a given target.
+126. Find all pairs of numbers between 1 and 100 whose product equals a given target.
+127. Find all Pythagorean triplets whose values are between 1 and 100.
+128. Generate all possible two-digit combinations using digits 0–9.
+129. Generate all possible three-digit combinations using digits 0–9.
+130. Find all numbers between 1 and 1000 that are divisible by the sum of their digits.
+
+===================================================================
+
+K. Real-world programming problems (131–140)
+
+131. Create a function that generates OTPs of a user-specified length using range() and random digits.
+132. Create a function that generates invoice numbers from a starting number to an ending number.
+133. Create a function that generates employee IDs for 100 employees.
+134. Create a function that displays a monthly calendar's date numbers from 1 to 30.
+135. Create a function that generates 12 monthly salary records.
+136. Create a function that calculates daily expenses for 30 days and returns the total.
+137. Create a function that displays a student's marks for 5 subjects and calculates the percentage.
+138. Create a function that generates product serial numbers from 1001 to 1100.
+139. Create a function that simulates 10 rounds of a shopping discount calculation.
+140. Create a function that generates pagination page numbers for 100 database records, with 10 records per page.
+
+===================================================================
+
+L. Tricky range() and debugging questions (141–150)
+
+141. Predict the output:
+for i in range(5):    print(i)
+
+
+
+142. Predict the output:
+for i in range(1, 10, 2):    print(i)
+
+
+
+143. Predict the output:
+for i in range(10, 0, -2):    print(i)
+
+
+
+144. What happens when you execute?
+for i in range(10, 1):    print(i)
+
+
+
+145. What happens when you execute?
+for i in range(1, 10, -1):    print(i)
+
+
+
+146. Find the error:
+for i in range(1, 10, 0):    print(i)
+
+
+
+147. Predict the output:
+for i in range(2, 11, 3):    print(i * 2)
+
+
+
+148. Predict the output:
+for i in range(5, -1, -1):    print(i)
+
+
+
+149. Explain the difference between range(5), range(1, 5), and range(1, 5, 2) with outputs.
+150. Write a function that accepts start, stop, and step from the user and generates a custom number sequence. Handle positive and negative steps correctly.
+
+===================================================================

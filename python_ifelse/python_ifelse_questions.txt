@@ -1,0 +1,332 @@
+Python Conditional Statements – 200 Practice Questions
+
+-------------------------------------------------------------------
+
+Level 1 – Basic Questions (1–50)
+
+Goal: Understand how conditions work.
+
+1. Check whether a number is positive.
+
+2. Check whether a number is negative.
+
+3. Check whether a number is zero.
+
+4. Check whether a number is even or odd.
+
+5. Check whether a person is eligible to vote (age 18 or above).
+
+6. Check whether a person is eligible for a driving licence (age 18 or above).
+
+7. Check whether a number is greater than 100.
+
+8. Check whether a number is less than 50.
+
+9. Check whether two numbers are equal.
+
+10. Find the greatest between two numbers.
+
+11. Find the smallest between two numbers.
+
+12. Check whether a person is a child (age below 13).
+
+13. Check whether a person is a teenager (age 13–19).
+
+14. Check whether a person is an adult (age 20 or above).
+
+15. Check whether a number is divisible by 5.
+\
+16. Check whether a number is divisible by 10.
+
+17. Check whether a number is divisible by both 3 and 5.
+
+18. Check whether a character is a vowel or consonant.
+
+19. Check whether a character is uppercase or lowercase.
+
+20. Check whether an entered character is an alphabet.
+
+21. Check whether a character is a digit.
+
+22. Check whether a string is empty or not.
+
+23. Check whether a username is equal to "admin".
+
+24. Check whether a password matches a predefined password.
+
+25. Check whether a student's marks are passing (35 or above).
+
+26. Check whether marks are below 35 (fail).
+
+27. Print grade A if marks are 90 or above, otherwise grade B.
+
+28. Check whether temperature is above 30°C.
+
+29. Check whether a year is a leap year.
+
+30. Check whether a number is between 1 and 100.
+
+31. Find the greatest among three numbers.
+
+32. Find the smallest among three numbers.
+
+33. Check whether a person is eligible for a senior citizen discount (age 60 or above).
+
+34. Check whether a number is a multiple of 7.
+
+35. Check whether the last digit of a number is 5.
+
+36. Check whether a given month number is valid (1–12).
+
+37. Check whether a given day number is valid (1–31).
+
+38. Check whether a number is a single-digit or double-digit number.
+
+39. Check whether a given string starts with "A".
+
+40. Check whether a given name has more than five characters.
+
+41. Check whether a shopping amount is greater than ₹1,000.
+
+42. Apply a 10% discount if the purchase amount is above ₹5,000.
+
+43. Check whether a bank balance is greater than zero.
+
+44. Check whether a withdrawal amount is less than or equal to the balance.
+
+45. Check whether a person is eligible for a free delivery offer (purchase ₹500 or above).
+
+46. Check whether a number is divisible by 2 or 3.
+
+47. Check whether a number is not divisible by 5.
+
+48. Check whether a given year is greater than 2000.
+
+49. Check whether a password length is at least 8 characters.
+
+50. Check whether two strings are identical.
+
+-------------------------------------------------------------------
+
+Level 2 – Medium Questions (51–100)
+
+Goal: Practice if-elif-else, multiple conditions and nested conditions.
+
+51. Display grades based on marks:
+- 90–100: A
+- 80–89: B
+- 70–79: C
+- 60–69: D
+- Below 60: Fail
+52. Find the greatest among three numbers using if-elif-else.
+53. Find the smallest among three numbers using conditional statements.
+54. Check whether a number is positive, negative or zero using if-elif-else.
+55. Create a calculator for addition, subtraction, multiplication and division.
+56. Display the number of days in a month using its month number.
+57. Display the season based on the month number.
+58. Create a traffic signal program: Red, Yellow, Green.
+59. Calculate electricity bill based on units consumed using different slabs.
+60. Calculate income tax using different income ranges (use simplified slabs you define).
+61. Calculate employee bonus based on years of experience.
+62. Calculate salary increment based on employee performance rating.
+63. Check whether a student passes or fails in three subjects. Require at least 35 in each.
+64. Check whether a student passes based on total marks and individual subject marks.
+65. Calculate BMI and classify as underweight, normal, overweight or obese.
+66. Calculate ticket price based on age category.
+67. Calculate movie ticket price based on age and show timing.
+68. Check whether a number is within a specified range: 10–50, 51–100 or above 100.
+69. Create a login program with username and password validation.
+70. Create a program to check username, password and account status.
+71. Check whether a person qualifies for a loan based on salary.
+72. Check loan eligibility based on salary and credit score.
+73. Calculate discount based on shopping amount:
+- Below ₹1,000: No discount
+- ₹1,000–₹4,999: 5%
+- ₹5,000–₹9,999: 10%
+- ₹10,000 or above: 20%
+74. Calculate delivery charges based on order amount and delivery distance.
+75. Check whether a number is divisible by 3, 5, both or neither.
+76. Check whether a triangle is valid using three side lengths.
+77. Identify whether a triangle is equilateral, isosceles or scalene.
+78. Check whether a triangle is right-angled.
+79. Check whether a given character is an alphabet, digit or special character.
+80. Check whether a string contains at least 8 characters and has a number at the end.
+81. Check whether an email contains @ and a valid-looking domain extension.
+82. Check whether a date is valid based on day, month and year.
+83. Check whether a year is a leap year and display the number of days in February.
+84. Check whether a person is eligible for a passport based on age and required document availability.
+85. Check whether a person is eligible for a job based on age and qualification.
+86. Calculate parking charges based on the number of hours.
+87. Calculate cab fare based on distance and waiting time.
+88. Check whether a bank withdrawal is valid based on balance and minimum balance requirement.
+89. Check whether an ATM transaction can proceed based on PIN and account balance.
+90. Check whether a mobile recharge amount qualifies for a bonus.
+91. Calculate water charges based on water consumption.
+92. Calculate employee overtime payment based on hours worked.
+93. Check whether a product is eligible for free shipping based on price and customer membership.
+94. Check whether a user can access a website based on login status and role.
+95. Check whether a person can enter a club based on age and membership.
+96. Calculate sports competition category based on age.
+97. Check whether a number is a three-digit number and whether it is divisible by 7.
+98. Check whether a given number is the largest or smallest among three inputs.
+99. Create a simple quiz program that evaluates answers and displays the result.
+100. Create a program to classify a password as weak, medium or strong based on length and character requirements.
+
+-------------------------------------------------------------------
+
+Level 3 – Advanced Questions (101–150)
+
+Goal: Develop nested conditions and multi-step decision-making logic.
+
+101. Build a complete student grading system with total, percentage, grade and pass/fail status.
+102. Create a student admission eligibility system based on 12th marks, entrance exam score and category.
+103. Build a university scholarship system based on marks, family income and attendance.
+104. Create a bank loan approval system based on salary, age, credit score and existing loans.
+105. Create a bank account withdrawal system with PIN verification, account status, balance and daily withdrawal limit.
+106. Build an ATM system with PIN attempts, balance checking and transaction limits.
+107. Create an employee appraisal system based on experience, attendance, performance and project completion.
+108. Build a payroll system with basic salary, HRA, DA, tax and bonus conditions.
+109. Create a shopping cart system with membership discounts, coupon codes and free delivery conditions.
+110. Build an e-commerce return eligibility system based on purchase date, product condition and return policy.
+111. Create a hotel room booking system based on room availability, guest count, budget and customer membership.
+112. Build a flight ticket pricing system based on age, travel class, booking time and seat availability.
+113. Create a railway ticket booking system based on age, seat availability and concession eligibility.
+114. Build a hospital appointment priority system based on symptoms, patient age and emergency status.
+115. Create a medical insurance eligibility checker based on age, income and pre-existing policy conditions.
+116. Build a vehicle insurance premium calculator based on vehicle age, type and previous claims.
+117. Create a driving licence eligibility system based on age, learner licence and test result.
+118. Build a vehicle rental system based on age, licence validity, vehicle availability and security deposit.
+119. Create a restaurant billing system with food category, quantity, discount and service charges.
+120. Build a food delivery system based on restaurant status, distance, order amount and delivery partner availability.
+121. Create a warehouse stock management alert system based on stock quantity, reorder level and product status.
+122. Build an inventory reorder system based on available stock, minimum stock and pending purchase orders.
+123. Create an employee attendance system with login time, logout time and late arrival conditions.
+124. Build a leave approval system based on leave balance, employee role and manager approval.
+125. Create a project task status system based on deadline, completion percentage and priority.
+126. Build a user registration validation system with username, email, password and confirmation password.
+127. Create a role-based access control system for ADMIN, MANAGER and USER.
+128. Build an OTP verification system with correct OTP, expiry time and maximum attempts.
+129. Create an online payment validation system based on payment method, amount and transaction status.
+130. Build a refund processing system based on payment status, refund request date and order status.
+131. Create a subscription system with FREE, BASIC and PREMIUM plans and expiry dates.
+132. Build a software licence validation system based on licence key, activation status and expiry date.
+133. Create a mobile data plan checker based on remaining data, validity and daily usage limit.
+134. Build a telecom recharge recommendation system based on budget, data requirement and validity.
+135. Create a weather-based recommendation system using temperature, humidity and rainfall.
+136. Build a crop recommendation system based on soil type, rainfall and temperature.
+137. Create a farming irrigation alert based on soil moisture and weather conditions.
+138. Build a smart home system based on room temperature, motion detection and user settings.
+139. Create a CCTV security alert system based on motion detection, time and authorized-person status.
+140. Build a vehicle parking management system based on parking slots, vehicle type and parking duration.
+141. Create a public transport fare calculator based on distance, passenger age and travel pass.
+142. Build a competition winner selection system based on points, time and penalty.
+143. Create a sports player selection system based on age, fitness score and performance.
+144. Build a product quality inspection system based on weight, dimensions and defect count.
+145. Create an invoice payment reminder system based on due date, payment status and customer type.
+146. Build a customer loyalty program based on purchase history, membership and reward points.
+147. Create a fraud detection rule system based on transaction amount, location and unusual transaction frequency.
+148. Build a server health monitoring alert system based on CPU, memory and disk usage.
+149. Create a file upload validation system based on file extension, file size and user permission.
+150. Build a complete online examination eligibility system based on login, registration, fee payment and exam schedule.
+
+-------------------------------------------------------------------
+
+Level 4 – Interview Questions (151–180)
+
+
+Goal: Test your understanding, output prediction and logical thinking.
+151. What is the difference between if, elif and else?
+152. Can we use multiple if statements instead of if-elif? Explain with an example.
+153. What happens if none of the conditions are true and there is no else block?
+154. Can we write an if statement inside another if statement?
+155. What is a nested if statement? Write an example.
+156. Can we use elif without an initial if?
+157. Can we use else without if?
+158. Can we use multiple elif blocks?
+159. What happens if two or more conditions are true in an if-elif-else chain?
+160. What is the difference between nested if and multiple if statements?
+161. What is the output?
+x = 10if x > 5:    print("A")if x > 8:    print("B")else:    print("C")
+
+
+
+162. What is the output?
+x = 10if x > 5:    if x > 15:        print("A")    else:        print("B")else:    print("C")
+
+
+
+163. What is the output?
+x = 20if x > 10:    print("A")elif x > 15:    print("B")else:    print("C")
+
+
+
+164. What is the output?
+x = 5if x > 5:    print("A")elif x == 5:    print("B")else:    print("C")
+
+
+
+165. Predict the output:
+a = 10b = 20if a < b and b > 15:    print("Yes")else:    print("No")
+
+
+
+166. Predict the output:
+age = 25has_license = Falseif age >= 18:    if has_license:        print("Can drive")    else:        print("Need license")else:    print("Not eligible")
+
+
+
+167. Predict the output:
+x = 0if x:    print("True")else:    print("False")
+
+
+
+168. Predict the output:
+name = ""if name:    print("Name exists")else:    print("Name is empty")
+
+
+
+169. Predict the output:
+x = 100if x >= 100:    print("A")elif x >= 50:    print("B")elif x >= 10:    print("C")else:    print("D")
+
+
+
+170. Find the logical mistake in a grading program where the condition for 60+ marks comes before the condition for 90+ marks.
+171. Write a program to find the middle number among three different numbers.
+172. Write a program to check whether three numbers are all equal, two are equal or all are different.
+173. Write a program to validate a username and password using nested conditions.
+174. Write a program to find whether a number is divisible by 2, 3 and 5, and classify all possible combinations.
+175. Write a program to check whether a number lies outside a range.
+176. Write a program to check whether a given year is a leap year without using any external library.
+177. Write a program to check whether a string is uppercase, lowercase, mixed case or contains no alphabets.
+178. Write a program to check whether a given input is a valid integer, positive integer or negative integer.
+179. Write a program using nested if to verify login, account activation and user role.
+180. Explain why the order of conditions matters in an if-elif-else chain, with a working example.
+
+-------------------------------------------------------------------
+
+Level 5 – Real-World Business Scenarios (181–200)
+
+Goal: Think like a software developer and implement actual application logic.
+
+181. Finance App: Check whether a user can add an expense based on login status and account status.
+182. Finance App: Check whether a user has sufficient balance before transferring money.
+183. Finance App: Categorize transactions as Low, Medium or High based on transaction amount.
+184. Finance App: Calculate monthly savings status based on income and expenses.
+185. Warehouse App: Allow stock dispatch only if the user has permission and sufficient stock exists.
+186. Warehouse App: Show stock status as Out of Stock, Low Stock, Normal or Overstock.
+187. Warehouse App: Check whether a warehouse employee can access a particular warehouse based on assigned warehouse ID.
+188. Inventory App: Allow product deletion only if stock is zero and the user is an ADMIN.
+189. Inventory App: Check whether a product is eligible for reorder based on stock and supplier availability.
+190. Student Management: Allow a student to attend an exam only if registration, fee payment and attendance conditions are satisfied.
+191. Student Management: Calculate student result based on subject marks, practical marks and attendance.
+192. Student Management: Decide whether a student qualifies for a scholarship based on percentage and family income.
+193. Authentication: Allow login only if the username, password and account status are valid.
+194. Authentication: Lock an account after five incorrect password attempts.
+195. E-commerce: Allow checkout only if the cart is not empty, stock is available and payment details are valid.
+196. E-commerce: Calculate the final order amount using coupon validity, membership and delivery charges.
+197. HR Management: Approve employee leave only if leave balance is available and manager approval is granted.
+198. Payment System: Mark a transaction as Successful, Failed or Pending based on payment gateway response.
+199. Notification System: Send an alert only if the alert is active, the user has enabled notifications and the contact information is valid.
+200. Admin Dashboard: Allow access to different modules based on role, permissions and account status.
+
+-------------------------------------------------------------------

@@ -1,0 +1,373 @@
+----------------------------------------------------------
+Python For Loop – 250 Practice Questions
+
+---------------------------------------------------------
+
+Level 1: Basic (1–50)
+
+1. Print numbers from 1 to 10.
+
+2. Print numbers from 1 to 100.
+
+3. Print numbers from 10 to 1.
+
+4. Print even numbers from 1 to 50.
+
+5. Print odd numbers from 1 to 50.
+
+6. Print multiples of 3 from 1 to 100.
+
+7. Print multiples of 5 from 1 to 100.
+
+8. Print numbers from 1 to 20 using range().
+
+9. Print numbers from 1 to 20 without using range().
+
+10. Print each character of your name.
+11. Print each character of "Python".
+12. Print each character of a string in reverse order.
+13. Print all items from a list.
+14. Print all items from a tuple.
+15. Print all items from a set.
+16. Print all keys of a dictionary.
+17. Print all values of a dictionary.
+18. Print dictionary keys and values together.
+19. Print each item from a list of fruits.
+20. Print numbers from 50 to 100.
+21. Print numbers divisible by 2.
+22. Print numbers divisible by 7.
+23. Print the multiplication table of 5.
+24. Print the multiplication table of 10.
+25. Print multiplication tables from 1 to 5.
+26. Calculate the sum of numbers from 1 to 10.
+27. Calculate the sum of numbers from 1 to 100.
+28. Calculate the sum of even numbers from 1 to 50.
+29. Calculate the sum of odd numbers from 1 to 50.
+30. Count numbers from 1 to 100.
+31. Count characters in a string using a loop.
+32. Count elements in a list using a loop.
+33. Find the length of a string without using len().
+34. Find the largest number in a list.
+35. Find the smallest number in a list.
+36. Calculate the average of numbers in a list.
+37. Print squares of numbers from 1 to 10.
+38. Print cubes of numbers from 1 to 10.
+39. Print the first 10 natural numbers and their squares.
+40. Print numbers from 1 to 50, skipping multiples of 5.
+41. Print all vowels in a string.
+42. Print all consonants in a string.
+43. Count vowels in a string.
+44. Count consonants in a string.
+45. Count spaces in a sentence.
+46. Count uppercase letters in a string.
+47. Count lowercase letters in a string.
+48. Print each word from a sentence.
+49. Find the sum of digits in a list of numbers.
+50. Print numbers from 100 to 1 with a step of -5.
+
+---------------------------------------------------------
+
+Level 2: Medium (51–100)
+
+51. Find the factorial of a number.
+52. Find the factorials of numbers from 1 to 10.
+53. Print the Fibonacci series using a for loop.
+54. Check whether a number is prime.
+55. Print all prime numbers from 1 to 100.
+56. Find all factors of a number.
+57. Count the factors of a number.
+58. Find the sum of factors of a number.
+59. Check whether a number is perfect.
+60. Print all perfect numbers from 1 to 1000.
+61. Check whether a number is an Armstrong number.
+62. Print Armstrong numbers from 1 to 1000.
+63. Reverse a string using a for loop.
+64. Check whether a string is a palindrome.
+65. Reverse a list without using reverse().
+66. Find duplicate elements in a list.
+67. Remove duplicates from a list using a loop.
+68. Count the frequency of each element in a list.
+69. Find common elements between two lists.
+70. Find elements present in the first list but not the second.
+71. Merge two lists using a loop.
+72. Separate even and odd numbers into two lists.
+73. Find the second-largest number in a list.
+74. Find the second-smallest number in a list.
+75. Find the sum of positive numbers in a list.
+76. Find the sum of negative numbers in a list.
+77. Count positive, negative and zero values.
+78. Find the index of a particular element without using index().
+79. Replace all negative numbers with zero.
+80. Create a new list containing the squares of all numbers.
+81. Convert all strings in a list to uppercase.
+82. Convert all strings in a list to lowercase.
+83. Find words longer than five characters.
+84. Count words in a sentence without using split() or len().
+85. Find the longest word in a sentence.
+86. Find the shortest word in a sentence.
+87. Count the frequency of each character in a string.
+88. Find the first non-repeated character in a string.
+89. Find the first repeated character in a string.
+90. Remove all vowels from a string.
+91. Create a dictionary from two lists.
+92. Print dictionary items using items().
+93. Calculate the total marks of students from a dictionary.
+94. Find the student with the highest marks.
+95. Find the student with the lowest marks.
+96. Count how many students passed and failed.
+97. Iterate over a nested list.
+98. Flatten a nested list using a loop.
+99. Create a list of numbers divisible by both 3 and 5.
+100. Print numbers from 1 to 100 with FizzBuzz logic.
+
+---------------------------------------------------------
+
+Level 3: Advanced (101–160)
+
+101. Find all pairs in a list whose sum equals a target.
+102. Find all triplets whose sum equals a target.
+103. Find pairs of duplicate elements.
+104. Find the intersection of three lists.
+105. Find the union of two lists without using set().
+106. Rotate a list to the left by one position.
+107. Rotate a list to the right by one position.
+108. Rotate a list by K positions.
+109. Find the maximum difference between two elements.
+110. Find the missing number from a sequence.
+111. Find all missing numbers between 1 and 100.
+112. Find the most frequent element in a list.
+113. Find the least frequent element in a list.
+114. Sort a list using bubble sort.
+115. Sort a list using selection sort.
+116. Sort a list using insertion sort.
+117. Implement linear search.
+118. Implement binary search.
+119. Find all indexes of a given element.
+120. Split a list into chunks of size K.
+121. Transpose a matrix using nested loops.
+122. Add two matrices.
+123. Subtract two matrices.
+124. Multiply two matrices.
+125. Find the diagonal elements of a matrix.
+126. Calculate the sum of each row in a matrix.
+127. Calculate the sum of each column in a matrix.
+128. Find the largest element in each row.
+129. Print a matrix in reverse order.
+130. Print a matrix in spiral order.
+131. Print a right-angle triangle pattern.
+132. Print an inverted right-angle triangle.
+133. Print a pyramid pattern.
+134. Print an inverted pyramid.
+135. Print a diamond pattern.
+136. Print a number triangle.
+137. Print Floyd's triangle.
+138. Print Pascal's triangle.
+139. Print a multiplication table using nested loops.
+140. Print all combinations of two numbers from 1 to 5.
+141. Generate all pairs from two lists.
+142. Generate all possible combinations of three lists.
+143. Find all permutations of a list using loops.
+144. Find all combinations of a list using loops.
+145. Iterate over a list using enumerate().
+146. Iterate over two lists using zip().
+147. Iterate over a dictionary using items().
+148. Use for-else to search for an element.
+149. Use break to stop a loop at a particular condition.
+150. Use continue to skip multiples of 3.
+151. Use nested loops to print coordinate pairs.
+152. Generate a multiplication table from 1 to 10.
+153. Find common characters between two strings.
+154. Find unique characters in a string.
+155. Check whether two strings are anagrams.
+156. Find all substrings of a string.
+157. Find the longest palindrome substring.
+158. Group words by their first character.
+159. Group numbers into even and odd categories using a dictionary.
+160. Build a character-frequency dictionary without Counter.
+
+---------------------------------------------------------
+
+Level 4: Interview Questions (161–190)
+
+161. What is the difference between for and while loops?
+162. What is the purpose of range()?
+163. Explain range(1, 10, 2).
+164. What is the difference between range(5) and range(1, 5)?
+165. Can we iterate over a string using a for loop?
+166. Can we iterate over a dictionary using a for loop?
+167. What is enumerate()?
+168. What is zip()?
+169. What is a nested for loop?
+170. What is the purpose of break?
+171. What is the purpose of continue?
+172. What is the purpose of pass?
+173. What is a for-else loop?
+174. Does the else block execute after break?
+175. Can a for loop iterate over a set?
+176. Can we modify a list while iterating over it?
+177. What happens if a list is empty?
+178. What happens if range(10, 1) is used?
+179. What is the output of range(2, 10, 2)?
+180. What is the difference between enumerate() and range()?
+181. Explain list comprehension versus a for loop.
+182. Explain generator expressions versus list comprehensions.
+183. What is an iterable?
+184. What is an iterator?
+185. Explain iter() and next().
+186. How does Python internally iterate over a list?
+187. What are common infinite-loop mistakes?
+188. How can nested loops affect time complexity?
+189. What is the time complexity of linear search?
+190. How would you optimize nested loops?
+
+---------------------------------------------------------
+
+Level 5: Real-World Scenarios (191–220)
+
+191. Calculate the total salary of all employees.
+192. Find employees whose salary is greater than ₹50,000.
+193. Find employees who joined after 2024.
+194. Count employees department-wise.
+195. Calculate the average salary department-wise.
+196. Find the highest-paid employee in each department.
+197. Generate a monthly expense report.
+198. Calculate total income from a list of transactions.
+199. Calculate total expenses from a list of transactions.
+200. Find the highest expense category.
+201. Find the monthly savings.
+202. Print all transactions above ₹5,000.
+203. Count successful and failed payments.
+204. Calculate the total amount of successful payments only.
+205. Find products whose stock is below 10.
+206. Calculate total inventory value.
+207. Find products that are out of stock.
+208. Calculate the total sales of each product.
+209. Generate student grade reports.
+210. Find students scoring above 80.
+211. Find students who failed in at least one subject.
+212. Calculate subject-wise average marks.
+213. Calculate attendance percentage for each student.
+214. Find students with attendance below 75%.
+215. Generate a list of users with active status.
+216. Count users role-wise.
+217. Print all API response records with status code 200.
+218. Process a list of login attempts and count failed logins.
+219. Find duplicate email addresses in a user list.
+220. Generate a simple warehouse stock summary.
+
+---------------------------------------------------------
+
+Level 6: Output Prediction and Debugging (221–250)
+
+221. Predict the output:
+for i in range(5):    print(i)
+
+
+
+222. Predict the output:
+for i in range(1, 6):    print(i * 2)
+
+
+
+223. Predict the output:
+for i in range(10, 0, -2):    print(i)
+
+
+
+224. Predict the output:
+for i in range(5):    if i == 3:        break    print(i)
+
+
+
+225. Predict the output:
+for i in range(5):    if i == 2:        continue    print(i)
+
+
+
+226. Predict the output:
+for i in range(3):    for j in range(2):        print(i, j)
+
+
+
+227. Predict the output:
+for i in "Python":    print(i, end="-")
+
+
+
+228. Predict the output:
+numbers = [10, 20, 30]for num in numbers:    print(num + 5)
+
+
+
+229. Predict the output:
+total = 0for i in range(1, 5):    total += iprint(total)
+
+
+
+230. Predict the output:
+for i in range(1, 4):    print("*" * i)
+
+
+
+231. Debug this code:
+for i in range(1, 10)    print(i)
+
+
+
+232. Debug this code:
+for i in range(5):print(i)
+
+
+
+233. Debug this code:
+for i in range(1, 6):    print(i)    i += 1
+
+
+
+Explain why the output may not be what you expect.
+
+234. Debug this code:
+numbers = [1, 2, 3, 4, 5]for i in range(len(numbers)):    print(numbers[i + 1])
+
+
+
+235. Debug this code:
+for i in range(1, 5):    if i % 2 = 0:        print(i)
+
+
+
+236. Debug this code:
+for i in range(5):    continue    print(i)
+
+
+
+237. Debug this code:
+for i in range(1, 6):    total = 0    total += iprint(total)
+
+
+
+238. Debug this code:
+for i in range(5):    if i == 3:        breakelse:    print("Completed")
+
+
+
+Explain when else executes.
+
+239. Modify the code to print only odd numbers:
+for i in range(1, 11):    print(i)
+
+
+
+240. Modify the code to calculate the product of numbers from 1 to 5.
+241. Modify the code to count vowels in a string.
+242. Modify the code to print numbers divisible by both 3 and 5.
+243. Modify the code to find the largest number without using max().
+244. Modify the code to count duplicate values in a list.
+245. Modify the code to print a right-angle triangle using nested loops.
+246. Modify the code to find the sum of each row in a matrix.
+247. Modify the code to print a dictionary in key: value format.
+248. Modify the code to find the employee with the highest salary.
+249. Modify the code to process only successful transactions.
+250. Modify the code to generate a student result report.
+
+---------------------------------------------------------

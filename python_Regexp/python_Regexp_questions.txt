@@ -1,0 +1,390 @@
+---------------------------------------------------------------------
+
+Level 1: Regex fundamentals (1–20)
+Beginner
+
+1. What is Regular Expression in Python?
+2. What is the purpose of the re module?
+3. How do you import the re module?
+4. What is a pattern in Regex?
+5. What is a string in Regex?
+6. What is the difference between normal strings and raw strings?
+7. Why do we use r"" in Regex?
+8. What is the purpose of re.match()?
+9. What is the purpose of re.search()?
+10. What is the purpose of re.findall()?
+11. What is the purpose of re.finditer()?
+12. What is the purpose of re.sub()?
+13. What is the purpose of re.split()?
+14. What is the purpose of re.compile()?
+15. What is the purpose of re.fullmatch()?
+16. What is the difference between match() and search()?
+17. What is the difference between search() and findall()?
+18. What is a match object?
+19. What happens when a pattern does not match?
+20. Where are Regular Expressions used in real-world applications?
+
+---------------------------------------------------------------------
+
+Level 2: Basic Regex characters (21–40)
+
+21. What does . represent?
+22. What does ^ represent?
+23. What does $ represent?
+24. What does * represent?
+25. What does + represent?
+26. What does ? represent?
+27. What does {} represent?
+28. What does [] represent?
+29. What does () represent?
+30. What does | represent?
+31. What does \ represent?
+32. What does \d represent?
+33. What does \D represent?
+34. What does \w represent?
+35. What does \W represent?
+36. What does \s represent?
+37. What does \S represent?
+38. What does \b represent?
+39. What does \B represent?
+40. What is the difference between \d and [0-9]?
+
+---------------------------------------------------------------------
+
+Level 3: Basic pattern matching (41–60)
+
+41. Check whether a string contains the word Python.
+42. Find the word Java in a sentence.
+43. Find all occurrences of the word cat.
+44. Check whether a string starts with Hello.
+45. Check whether a string ends with Python.
+46. Find all digits in a string.
+47. Find all alphabetic characters in a string.
+48. Find all lowercase letters.
+49. Find all uppercase letters.
+50. Find all whitespace characters.
+51. Find all words in a sentence.
+52. Find all numbers in a sentence.
+53. Find all special characters.
+54. Find all vowels in a string.
+55. Find all consonants in a string.
+56. Check whether a string contains only digits.
+57. Check whether a string contains only alphabets.
+58. Check whether a string contains only lowercase letters.
+59. Check whether a string contains only uppercase letters.
+60. Check whether a string contains alphabets and numbers only.
+
+---------------------------------------------------------------------
+
+Level 4: Quantifiers (61–80)
+
+Beginner–Intermediate
+61. Find words containing at least one character.
+62. Find words containing exactly five characters.
+63. Find words containing at least three characters.
+64. Find words containing at most four characters.
+65. Find numbers containing exactly three digits.
+66. Find numbers containing at least five digits.
+67. Find words starting with A.
+68. Find words ending with ing.
+69. Find words containing double letters.
+70. Find strings containing exactly two digits.
+71. Find strings containing one or more digits.
+72. Find strings containing zero or more digits.
+73. Find all words with 4–8 characters.
+74. Find numbers containing 2–5 digits.
+75. Find words containing only 3 letters.
+76. Find strings starting with three uppercase letters.
+77. Find strings ending with two digits.
+78. Find all words containing at least one vowel.
+79. Find words containing no digits.
+80. Find words containing exactly two vowels.
+
+---------------------------------------------------------------------
+
+Level 5: Character classes (81–100)
+
+Intermediate
+81. Find all lowercase letters using [a-z].
+82. Find all uppercase letters using [A-Z].
+83. Find all digits using [0-9].
+84. Find all alphabets using [a-zA-Z].
+85. Find all alphanumeric characters.
+86. Find all characters except digits.
+87. Find all characters except alphabets.
+88. Find all vowels using [aeiou].
+89. Find all consonants using a character class.
+90. Find all characters between a and f.
+91. Find all characters between A and Z.
+92. Find all digits between 1 and 5.
+93. Find all words beginning with a vowel.
+94. Find all words beginning with a consonant.
+95. Find all strings containing only a, b and c.
+96. Find all characters except spaces.
+97. Find all words that contain a hyphen.
+98. Find all strings containing letters and underscores.
+99. Find all words containing only lowercase letters and digits.
+100. Find all strings containing only uppercase letters and digits.
+
+---------------------------------------------------------------------
+
+Level 6: Anchors and boundaries (101–120)
+
+Intermediate
+101. Check whether a string starts with Python using ^.
+102. Check whether a string ends with Python using $.
+103. Find words beginning with A.
+104. Find words ending with s.
+105. Find words containing ing at the end.
+106. Find words starting with pre.
+107. Find words ending with tion.
+108. Find cat as a complete word.
+109. Find car as a complete word.
+110. Find book only when it is a separate word.
+111. Find words that start and end with the same letter.
+112. Find strings containing only digits from beginning to end.
+113. Find strings containing only alphabets from beginning to end.
+114. Find strings containing only lowercase letters.
+115. Find strings containing only uppercase letters.
+116. Check whether a string starts with a digit.
+117. Check whether a string ends with a digit.
+118. Find words that are exactly four letters long.
+119. Find words that do not have digits.
+120. Explain the difference between ^, $, \b and \B with examples.
+
+---------------------------------------------------------------------
+
+Level 7: Groups and alternation (121–140)
+Intermediate
+
+121. What is a capturing group?
+122. Find a date in DD-MM-YYYY format using groups.
+123. Extract day, month and year separately.
+124. Find phone numbers using groups.
+125. Extract country code and phone number separately.
+126. Find either Python or Java.
+127. Find either cat, dog or cow.
+128. Find words beginning with pre or post.
+129. Find numbers separated by hyphens.
+130. Extract the username and domain from an email.
+131. Find a name followed by a number.
+132. Find repeated words using groups.
+133. Find two identical consecutive words.
+134. Find a three-digit number and extract each digit.
+135. Find text enclosed in parentheses.
+136. Find text enclosed in square brackets.
+137. Find text enclosed in double quotes.
+138. Find text enclosed in single quotes.
+139. Explain non-capturing groups (?:...).
+140. Explain the difference between capturing and non-capturing groups.
+
+---------------------------------------------------------------------
+
+Level 8: search, findall, finditer and match (141–160)
+
+Intermediate coding
+141. Use re.search() to find Python.
+142. Use re.match() to check the first word.
+143. Use re.findall() to extract all digits.
+144. Use re.finditer() to find all words.
+145. Print the starting position of every match.
+146. Print the ending position of every match.
+147. Print matched text using .group().
+148. Find all email addresses in a paragraph.
+149. Find all phone numbers in a paragraph.
+150. Find all dates in a paragraph.
+151. Find all URLs in a paragraph.
+152. Find all hashtags in a paragraph.
+153. Find all mentions beginning with @.
+154. Find all words beginning with capital letters.
+155. Find all repeated numbers.
+156. Find all decimal numbers.
+157. Find all negative numbers.
+158. Find all numbers containing commas.
+159. Find all words with exactly six letters.
+160. Compare the output of match(), search(), findall() and finditer() on the same string.
+
+---------------------------------------------------------------------
+
+Level 9: Replacement and splitting (161–180)
+
+Intermediate coding
+161. Replace all spaces with underscores using re.sub().
+162. Replace all digits with X.
+163. Remove all special characters.
+164. Remove all extra spaces.
+165. Replace multiple spaces with a single space.
+166. Replace all lowercase letters with *.
+167. Replace all uppercase letters with #.
+168. Replace all vowels with @.
+169. Replace all numbers with NUMBER.
+170. Remove all numbers from a sentence.
+171. Remove all punctuation from a sentence.
+172. Replace Java with Python.
+173. Replace multiple hyphens with one hyphen.
+174. Split a sentence using spaces.
+175. Split a string using commas or semicolons.
+176. Split a string using spaces, commas and dots.
+177. Split a string using multiple delimiters.
+178. Replace only the first matching occurrence.
+179. Replace all matching occurrences.
+180. Use re.sub() with a function as the replacement.
+
+---------------------------------------------------------------------
+
+Level 10: Greedy and non-greedy matching (181–200)
+
+Intermediate–Advanced
+181. What is greedy matching?
+182. What is non-greedy matching?
+183. Explain the difference between .* and .*?.
+184. Extract text between two brackets using greedy matching.
+185. Extract text between two brackets using non-greedy matching.
+186. Extract all quoted text from a sentence.
+187. Find the shortest text between < and >.
+188. Find the longest text between < and >.
+189. Extract HTML tags from a string.
+190. Extract text between HTML tags.
+191. Find all text between double quotes.
+192. Find all text between single quotes.
+193. Extract multiple bracketed expressions.
+194. Find the first occurrence of text between parentheses.
+195. Find all occurrences of text between parentheses.
+196. Explain why .* sometimes matches too much text.
+197. Compare .+ and .+?.
+198. Compare a* and a+.
+199. Extract content between START and END.
+200. Write a program that extracts all content between matching markers.
+
+---------------------------------------------------------------------
+
+Level 11: Lookahead and lookbehind (201–220)
+
+Advanced
+201. What is positive lookahead (?=...)?
+202. What is negative lookahead (?!...)?
+203. What is positive lookbehind (?<=...)?
+204. What is negative lookbehind (?<!...)?
+205. Find digits followed by USD.
+206. Find numbers not followed by kg.
+207. Find words followed by a comma without including the comma.
+208. Find numbers preceded by $.
+209. Find numbers not preceded by $.
+210. Find words followed by ing.
+211. Find numbers followed by a percentage sign.
+212. Extract numbers without including the % sign.
+213. Find words not followed by a digit.
+214. Find words preceded by Mr..
+215. Find prices preceded by ₹.
+216. Find numbers preceded by ID-.
+217. Extract text before a colon using lookahead.
+218. Extract text after a colon using lookbehind.
+219. Find words that are not followed by .com.
+220. Write a program using both lookahead and lookbehind.
+
+---------------------------------------------------------------------
+
+Level 12: Validation problems (221–240)
+
+Advanced practical
+221. Validate a 10-digit Indian mobile number (basic digit-only format).
+222. Validate an email address using a practical basic pattern.
+223. Validate a username containing letters, digits and underscores.
+224. Validate a password with at least eight characters.
+225. Validate a password containing at least one uppercase letter.
+226. Validate a password containing at least one lowercase letter.
+227. Validate a password containing at least one digit.
+228. Validate a password containing at least one special character.
+229. Validate a password with all four requirements above.
+230. Validate a date in DD-MM-YYYY format (format only).
+231. Validate a date in YYYY/MM/DD format (format only).
+232. Validate a PIN code containing six digits.
+233. Validate a basic Indian postal PIN code starting with 1–9.
+234. Validate a basic URL format.
+235. Validate a username that starts with a letter.
+236. Validate a username of 5–15 characters.
+237. Validate a hexadecimal color code such as #FF5733.
+238. Validate a time in HH:MM format.
+239. Validate a 24-hour time format.
+240. Create a registration form validator using multiple regex patterns.
+Note: Regex can check a format, but full validation of dates, email deliverability and URLs needs additional logic or dedicated libraries.
+
+---------------------------------------------------------------------
+
+Level 13: Advanced pattern matching (241–260)
+
+Advanced
+241. Find repeated consecutive characters.
+242. Find words containing repeated letters.
+243. Find duplicate consecutive words.
+244. Find all palindrome-like words for a given fixed-length pattern.
+245. Find words containing exactly two vowels.
+246. Find words that start and end with vowels.
+247. Find words that contain no vowels.
+248. Find numbers divisible by 5 using a pattern.
+249. Find numbers ending with 00.
+250. Extract numbers from mixed alphanumeric strings.
+251. Find words with alternating uppercase and lowercase letters.
+252. Find all consecutive duplicate characters.
+253. Find sequences of three or more repeated characters.
+254. Find strings containing at least two digits.
+255. Find strings containing exactly one special character.
+256. Find words that contain the same first and last character.
+257. Find all HTML comments in text.
+258. Find simple HTML tags with their attributes.
+259. Extract key-value pairs from a simple configuration string.
+260. Create a regex-based text cleaner.
+
+---------------------------------------------------------------------
+
+Level 14: Real-world projects (261–280)
+
+Real-world application
+261. Create an email extractor from a text file.
+262. Create a phone number extractor.
+263. Create a URL extractor.
+264. Create a hashtag extractor for social media text.
+265. Create a username extractor from chat messages.
+266. Extract dates from a document.
+267. Extract prices from product descriptions.
+268. Extract invoice numbers from invoice text.
+269. Extract employee IDs from text.
+270. Extract order IDs from shopping data.
+271. Clean unwanted special characters from user input.
+272. Remove duplicate spaces from a document.
+273. Mask mobile numbers except the last four digits.
+274. Mask email addresses for privacy.
+275. Extract IP addresses from server logs.
+276. Extract HTTP status codes from log lines.
+277. Extract timestamps from application logs.
+278. Find all error messages containing ERROR.
+279. Extract hashtags and mentions from a social media post.
+280. Build a simple log-file analyzer using Regex.
+
+---------------------------------------------------------------------
+
+Level 15: Expert challenges (281–300)
+Expert challenge
+
+281. Explain the difference between re.compile() and direct pattern usage.
+282. Use re.IGNORECASE to perform case-insensitive matching.
+283. Use re.MULTILINE to match the beginning of each line.
+284. Use re.DOTALL to match across multiple lines.
+285. Combine multiple regex flags.
+286. Use named capturing groups (?P<name>...).
+287. Extract employee details using named groups.
+288. Use backreferences to find repeated words.
+289. Find repeated characters using backreferences.
+290. Use conditional replacement with a replacement function.
+291. Use re.escape() to search for special characters literally.
+292. Handle invalid regex patterns using exception handling.
+293. Explain catastrophic backtracking.
+294. Write a regex pattern that matches a basic IPv4 address format.
+295. Extract structured information from server logs.
+296. Build a password-strength checker using Regex.
+297. Build an email and mobile number validation program.
+298. Build a text analyzer that counts numbers, words and special characters.
+299. Build a mini data-cleaning application using Regex.
+300. Build a complete Regex-based information extractor from a text document.
+
+----------------------------------The End -----------------------------------

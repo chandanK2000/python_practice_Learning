@@ -1,0 +1,634 @@
+--------------------------------------------------------------
+Module 1: Basic Level (1–70)
+
+Focus: Creating dictionaries, accessing values, adding, updating and deleting elements.
+
+A. Dictionary creation and properties (1–15)
+
+1. Create an empty dictionary.
+
+2. Create a dictionary containing student information (name, age, course).
+
+3. Create a dictionary containing employee information.
+
+4. Create a dictionary containing product details (product name, price, quantity).
+
+5. Create a dictionary containing 5 key-value pairs.
+
+6. Create a dictionary with integer keys and string values.
+
+7. Create a dictionary with string keys and integer values.
+
+8. Create a dictionary with mixed data types as values.
+
+9. Create a dictionary using the dict() constructor.
+
+10. Create a dictionary using keyword arguments in dict().
+
+11. Create a dictionary using two lists (one for keys and one for values).
+
+12. Create a dictionary using zip().
+
+13. Create a dictionary using fromkeys().
+
+14. Check the data type of a dictionary using type().
+
+15. Find the number of elements using len().
+
+--------------------------------------------------------------
+
+B. Accessing dictionary elements (16–30)
+
+16. Access a dictionary value using its key.
+
+17. Access a student name from a dictionary.
+
+18. Access an employee salary from a dictionary.
+
+19. Access a product price from a dictionary.
+
+20. Access a value using the get() method.
+
+21. Access a non-existing key using square brackets and observe the error.
+
+22. Access a non-existing key using get().
+
+23. Provide a default value using get().
+
+24. Check whether a particular key exists.
+
+25. Check whether a particular key does not exist.
+
+26. Print all dictionary keys using keys().
+
+27. Print all dictionary values using values().
+
+28. Print all key-value pairs using items().
+
+29. Access the first key-value pair using iteration.
+
+30. Find the value associated with a particular key without using square brackets.
+
+--------------------------------------------------------------
+
+C. Adding and updating dictionary elements (31–45)
+
+31. Add a new key-value pair to a dictionary.
+32. Add 5 new key-value pairs one by one.
+33. Update an existing key's value.
+34. Update multiple key-value pairs using update().
+35. Add a new employee to an employee dictionary.
+36. Add a new product to a product dictionary.
+37. Change a student's age.
+38. Change an employee's department.
+39. Increase a product's price by 10%.
+40. Increase an employee's salary by ₹5,000.
+41. Add a new key using setdefault().
+42. Use setdefault() on an existing key.
+43. Update a dictionary using another dictionary.
+44. Create a copy of a dictionary using copy().
+45. Create a dictionary with default values using fromkeys().
+
+--------------------------------------------------------------
+
+D. Removing dictionary elements (46–60)
+
+46. Remove an element using pop().
+47. Remove the last inserted element using popitem().
+48. Delete a key using del.
+49. Delete the entire dictionary using del.
+50. Remove all elements using clear().
+51. Remove an employee record using an employee ID.
+52. Remove a product using its product ID.
+53. Remove a student using a student ID.
+54. Remove a key only if it exists.
+55. Remove all dictionary entries where the value is zero.
+56. Remove all employees whose salary is below ₹15,000.
+57. Remove all products whose quantity is zero.
+58. Remove keys whose values are empty strings.
+59. Create a copy and remove an element from the copy.
+60. Explain the difference between pop(), popitem(), del and clear().
+
+--------------------------------------------------------------
+
+E. Basic dictionary loops and conditions (61–70)
+
+61. Print all dictionary keys using a for loop.
+62. Print all dictionary values using a for loop.
+63. Print all keys and values using items().
+64. Print only employee names.
+65. Print only product prices.
+66. Print keys whose values are greater than 100.
+67. Print employees whose salary is greater than ₹30,000.
+68. Count the total number of key-value pairs.
+69. Calculate the sum of all numeric values in a dictionary.
+70. Find the maximum and minimum numeric values in a dictionary.
+
+--------------------------------------------------------------
+
+Module 2: Medium Level (71–150)
+Focus: Dictionary logic, iteration, conditions, filtering, sorting and conversions.
+
+A. Dictionary operations (71–90)
+
+71. Merge two dictionaries using update().
+72. Merge two dictionaries using the | operator.
+73. Merge three dictionaries into one.
+74. Find common keys between two dictionaries.
+75. Find keys that exist only in the first dictionary.
+76. Find keys that exist only in the second dictionary.
+77. Find keys that are common but have different values.
+78. Find keys that have the same values in two dictionaries.
+79. Compare two dictionaries for equality.
+80. Find the total sum of dictionary values.
+81. Find the average of dictionary values.
+82. Find the key having the maximum value.
+83. Find the key having the minimum value.
+84. Find the second-highest value in a dictionary.
+85. Count how many values are even numbers.
+86. Count how many values are odd numbers.
+87. Separate even and odd values into two dictionaries.
+88. Find duplicate values in a dictionary.
+89. Find keys having duplicate values.
+90. Reverse a dictionary by swapping keys and values (assume values are unique).
+
+--------------------------------------------------------------
+
+B. Dictionary with strings (91–105)
+
+91. Create a dictionary containing the frequency of each character in a string.
+92. Count the frequency of vowels in a string.
+93. Count the frequency of consonants in a string.
+94. Count uppercase and lowercase characters separately.
+95. Count the frequency of each word in a sentence.
+96. Find the most frequently occurring character.
+97. Find the least frequently occurring character.
+98. Find duplicate characters in a string using a dictionary.
+99. Find characters that appear only once.
+100. Find the first non-repeating character in a string.
+101. Find the first repeating character in a string.
+102. Create a dictionary containing each word and its length.
+103. Create a dictionary containing each word and its first character.
+104. Convert a sentence into a dictionary of word positions.
+105. Find the longest word and its length using a dictionary.
+
+--------------------------------------------------------------
+
+C. Dictionary with lists and tuples (106–120)
+
+106. Convert a list of names into a dictionary with index as the key.
+107. Convert two lists into a dictionary using zip().
+108. Convert a dictionary into a list of keys.
+109. Convert a dictionary into a list of values.
+110. Convert a dictionary into a list of tuples.
+111. Convert a list of tuples into a dictionary.
+112. Create a dictionary from a list containing duplicate values.
+113. Find common keys between two dictionaries.
+114. Find common values between two dictionaries.
+115. Create a dictionary where keys are student names and values are marks stored in lists.
+116. Calculate the total marks of each student.
+117. Find the highest mark for each student.
+118. Find the average marks for each student.
+119. Create a dictionary from a list of employee names and their salaries.
+120. Group names based on their first character using a dictionary.
+
+--------------------------------------------------------------
+
+D. Sorting and filtering (121–135)
+
+121. Sort a dictionary by keys in ascending order.
+122. Sort a dictionary by keys in descending order.
+123. Sort a dictionary by values in ascending order.
+124. Sort a dictionary by values in descending order.
+125. Find the top 3 highest values in a dictionary.
+126. Find the bottom 3 lowest values in a dictionary.
+127. Filter employees whose salary is above ₹40,000.
+128. Filter products whose prices are between ₹100 and ₹500.
+129. Filter students who scored more than 75 marks.
+130. Filter dictionary elements having even values.
+131. Filter dictionary elements having odd values.
+132. Filter keys containing the letter a.
+133. Filter values containing a particular word.
+134. Create a new dictionary containing only non-empty values.
+135. Create a new dictionary containing values greater than the average.
+
+--------------------------------------------------------------
+
+E. Dictionary comprehension (136–150)
+
+136. Create a dictionary of numbers and their squares from 1 to 10.
+137. Create a dictionary of numbers and their cubes from 1 to 10.
+138. Create a dictionary of even numbers and their squares.
+139. Create a dictionary of odd numbers and their cubes.
+140. Create a dictionary of numbers and their multiplication table values.
+141. Create a dictionary of numbers divisible by 5.
+142. Create a dictionary of names and their lengths.
+143. Create a dictionary of words and their uppercase versions.
+144. Create a dictionary of words and their lowercase versions.
+145. Create a dictionary of numbers and their even/odd labels.
+146. Create a new dictionary by multiplying every value by 2.
+147. Create a new dictionary by adding 10 to every value.
+148. Create a dictionary containing only values greater than 50.
+149. Create a dictionary containing only keys with even numbers.
+150. Swap dictionary keys and values using dictionary comprehension.
+--------------------------------------------------------------
+
+Module 3: Advanced Level (151–230)
+Focus: Nested dictionaries, complex logic, grouping, transformations and advanced comprehension.
+
+A. Nested dictionaries (151–170)
+
+151. Create a nested dictionary containing 3 students with their details.
+152. Create a nested dictionary containing employee records.
+153. Access the name of the first student from a nested dictionary.
+154. Access the salary of a particular employee.
+155. Add a new student to a nested dictionary.
+156. Add a new employee to an employee dictionary.
+157. Update the age of a student inside a nested dictionary.
+158. Update the salary of an employee inside a nested dictionary.
+159. Delete one student record from a nested dictionary.
+160. Delete one employee record using their employee ID.
+161. Print all student names using nested loops.
+162. Print all employee names and departments.
+163. Calculate the total salary of all employees.
+164. Find the employee with the highest salary.
+165. Find the student with the highest marks.
+166. Calculate the average marks of all students.
+167. Find students who scored above 80.
+168. Find employees working in the IT department.
+169. Count the total number of students in a nested dictionary.
+170. Convert a nested dictionary into a list of records.
+
+--------------------------------------------------------------
+
+B. Advanced dictionary logic (171–190)
+
+171. Count the frequency of each element in a list using a dictionary.
+172. Find the most frequent number in a list.
+173. Find the second most frequent number in a list.
+174. Find all elements having the same frequency.
+175. Group numbers based on their frequency.
+176. Group numbers into even and odd categories using a dictionary.
+177. Group words based on their lengths.
+178. Group employees based on their departments.
+179. Group students based on their grades.
+180. Group products based on their categories.
+181. Create a dictionary where keys are numbers and values are lists of their factors.
+182. Create a dictionary where keys are words and values are their unique characters.
+183. Find the intersection of two dictionaries based on keys and values.
+184. Find dictionary differences based on values.
+185. Find the key with the longest string value.
+186. Find the key with the shortest string value.
+187. Find the dictionary key having the maximum number of characters.
+188. Find the dictionary key having the minimum number of characters.
+189. Flatten a nested dictionary into a single-level dictionary.
+190. Convert a flat dictionary into a nested dictionary using a separator in its keys.
+
+--------------------------------------------------------------
+
+C. Advanced dictionary comprehension (191–205)
+
+191. Create a nested dictionary using dictionary comprehension.
+192. Create a dictionary of numbers and their factors.
+193. Create a dictionary of numbers and their prime/composite labels.
+194. Create a dictionary of numbers and their factorials.
+195. Create a dictionary of numbers and their multiplication tables.
+196. Create a dictionary from a list of words and their character frequencies.
+197. Create a dictionary containing only palindrome words.
+198. Create a dictionary of employee names and annual salaries.
+199. Create a dictionary of students who scored more than 60.
+200. Create a dictionary of products with stock greater than zero.
+201. Create a dictionary containing only non-duplicate values.
+202. Create a dictionary where each value is converted into uppercase if it is a string.
+203. Create a new dictionary by applying a 10% discount to all product prices.
+204. Create a dictionary where values are the sum of corresponding values from two dictionaries.
+205. Create a dictionary by reversing the characters of each string value.
+
+--------------------------------------------------------------
+
+D. Advanced problem solving (206–220)
+
+206. Find all pairs of elements in a list whose sum equals a target value using a dictionary.
+207. Find the first pair of numbers whose sum equals 10.
+208. Find the two most common words in a paragraph.
+209. Find the top 3 most frequent characters in a string.
+210. Find the missing values from a sequence using dictionary keys.
+211. Find duplicate records based on a unique ID.
+212. Find the first unique number in a list using a dictionary.
+213. Find the longest substring without repeating characters using a dictionary.
+214. Check whether two strings are anagrams using character-frequency dictionaries.
+215. Check whether two strings are isomorphic using dictionaries.
+216. Find the frequency of each digit in an integer.
+217. Convert a Roman numeral into an integer using a dictionary.
+218. Convert an integer into a Roman numeral using a dictionary.
+219. Build a simple phone book using dictionaries.
+220. Build a dictionary-based student grade calculator.
+
+--------------------------------------------------------------
+
+E. Advanced data handling (221–230)
+
+221. Convert a list of dictionaries into a dictionary indexed by ID.
+222. Convert a dictionary of lists into a list of dictionaries.
+223. Merge two lists of dictionaries based on a common ID.
+224. Find duplicate employee records based on email.
+225. Find employees whose departments are missing.
+226. Find products with duplicate product codes.
+227. Update multiple records based on a matching ID.
+228. Create a summary dictionary from sales transaction records.
+229. Calculate monthly sales totals from a list of transaction dictionaries.
+230. Create a nested sales report grouped by year and month.
+
+--------------------------------------------------------------
+
+Module 4: Interview Level (231–310)
+
+Focus: Python fundamentals, tricky concepts, output prediction, debugging, time complexity and coding interview questions.
+
+A. Conceptual interview questions (231–250)
+
+231. What is a dictionary in Python?
+232. What are the main properties of a dictionary?
+233. Are Python dictionaries ordered or unordered?
+234. What is a key-value pair?
+235. Can a dictionary contain duplicate keys?
+236. Can a dictionary contain duplicate values?
+237. Can dictionary keys be integers?
+238. Can dictionary keys be strings?
+239. Can dictionary keys be tuples?
+240. Can dictionary keys be lists?
+241. Why must dictionary keys be hashable?
+242. Can dictionary values contain lists?
+243. Can a dictionary contain another dictionary?
+244. What is the difference between a list and a dictionary?
+245. What is the difference between a set and a dictionary?
+246. What is the difference between get() and square bracket access?
+247. What is the difference between update() and setdefault()?
+248. What is the difference between keys(), values() and items()?
+249. What is the difference between copy() and direct assignment?
+250. What is the difference between shallow copy and deep copy?
+
+--------------------------------------------------------------
+
+B. Dictionary methods and tricky concepts (251–265)
+
+251. Explain the get() method with an example.
+252. Explain the items() method.
+253. Explain the keys() method.
+254. Explain the values() method.
+255. Explain the update() method.
+256. Explain the pop() method.
+257. Explain the popitem() method.
+258. Explain the clear() method.
+259. Explain the copy() method.
+260. Explain the setdefault() method.
+261. Explain the fromkeys() method.
+262. What does dict() do?
+263. What happens when you assign a value to an existing key?
+264. What happens if you access a missing key using get()?
+265. Can dictionary keys be modified after insertion?
+
+--------------------------------------------------------------
+
+C. Output prediction (266–285)
+
+Predict the output of each program before running it.
+a = {"name": "Chandan", "age": 25}print(a["name"])
+
+
+
+a = {"x": 10, "y": 20}a["z"] = 30print(len(a))
+
+
+
+a = {"x": 10, "y": 20}a["x"] = 50print(a)
+
+
+
+a = {"a": 1, "b": 2}print(a.get("c", 100))
+
+
+
+a = {"a": 10, "b": 20}print("a" in a)
+
+
+
+a = {"a": 10, "b": 20}print(10 in a)
+
+
+
+a = {"a": 10, "b": 20}print(a.keys())
+
+
+
+a = {"a": 10, "b": 20}print(a.values())
+
+
+
+a = {"a": 10, "b": 20}print(a.items())
+
+
+
+a = {"x": 10, "y": 20}print(a.pop("x"))print(a)
+
+
+
+a = {"x": 10, "y": 20}print(a.popitem())
+
+
+
+a = {"a": 10}a.setdefault("b", 20)print(a)
+
+
+
+a = {"a": 10}a.setdefault("a", 50)print(a)
+
+
+
+a = dict.fromkeys(["a", "b", "c"], 0)print(a)
+
+
+
+a = {"a": 10, "b": 20}b = a.copy()b["a"] = 100print(a)print(b)
+
+
+
+a = {"a": 10, "b": 20}b = ab["a"] = 100print(a)
+
+
+
+a = {1: "one", 1: "two", 2: "three"}print(a)
+
+
+
+a = {"True": 10, True: 20, 1: 30}print(a)
+
+
+
+a = {"a": 1, "b": 2}for x in a:    print(x)
+
+
+
+a = {"a": 1, "b": 2}for x, y in a.items():    print(x, y)
+
+--------------------------------------------------------------
+
+D. Debugging questions (286–295)
+286. Find and fix the error.
+a = {"name": "Chandan"}print(a[0])
+
+
+
+287. Find and fix the error.
+a = {"name": "Chandan"}a.add("age", 25)
+
+
+
+288. Find and fix the error.
+a = {"name": "Chandan"}a.append({"age": 25})
+
+
+
+289. Find and fix the error.
+a = {"name": "Chandan"}a.remove("name")
+
+
+
+290. Find and fix the error.
+a = {"name": "Chandan"}a.update("age", 25)
+
+
+
+291. Fix this program to print all dictionary values.
+a = {"a": 10, "b": 20, "c": 30}for x in a:    print(a[x])
+
+
+
+292. Fix this program to calculate the sum of values.
+a = {"a": 10, "b": 20, "c": 30}total = 0for x in a:    total = total + xprint(total)
+
+
+
+293. Fix the code to count character frequencies.
+text = "banana"count = {}for x in text:    count[x] += 1print(count)
+
+
+
+294. Fix this program to remove keys with zero values.
+a = {"a": 10, "b": 0, "c": 20}for k in a:    if a[k] == 0:        del a[k]
+
+
+
+295. Fix this program to merge two dictionaries.
+a = {"x": 10}b = {"y": 20}c = a + bprint(c)
+
+--------------------------------------------------------------
+
+
+E. Coding interview challenges (296–310)
+
+296. Find the first non-repeating character in a string using a dictionary.
+297. Find the most frequent element in an array using a dictionary.
+298. Find two numbers whose sum equals a target using a dictionary (Two Sum).
+299. Group anagrams together using dictionaries.
+300. Find the top K frequent elements using a dictionary.
+301. Find the majority element using a dictionary.
+302. Find the intersection of two arrays using dictionaries.
+303. Find the difference between two arrays using dictionaries.
+304. Find whether two strings are anagrams using dictionaries.
+305. Find the longest consecutive sequence using dictionary-based lookup.
+306. Find the first repeating element in an array.
+307. Find all pairs of elements with a given difference.
+308. Find the frequency of words and sort them by frequency.
+309. Implement a simple LRU cache using dict and OrderedDict or another suitable structure.
+310. Implement a basic inventory system using dictionaries with stock updates and price calculations.
+
+--------------------------------------------------------------
+
+Module 5: Real-World Projects & Practical Challenges (311–350+)
+
+Focus: Applying dictionaries in actual software development.
+
+These questions are especially useful because dictionaries are heavily used when working with APIs, databases, Flask, JSON and backend applications.
+
+A. Student Management System (311–318)
+
+311. Create a student management dictionary with student ID, name, age and course.
+312. Add a new student record.
+313. Search for a student using their ID.
+314. Update a student's details.
+315. Delete a student record.
+316. Display all student records.
+317. Calculate the average marks of all students.
+318. Find the student who scored the highest marks.
+
+--------------------------------------------------------------
+
+B. Employee Management System (319–325)
+
+319. Create an employee dictionary containing ID, name, department and salary.
+320. Add multiple employees.
+321. Find employees working in the HR department.
+322. Find employees whose salary is greater than ₹50,000.
+323. Calculate the total salary expenditure.
+324. Find the highest-paid employee.
+325. Group employees by department.
+
+--------------------------------------------------------------
+
+C. Inventory Management System (326–333)
+
+326. Create a product inventory dictionary with product ID, name, price and stock.
+327. Add a new product.
+328. Update product stock after a purchase.
+329. Reduce stock after a sale.
+330. Calculate the total inventory value.
+331. Find products with zero stock.
+332. Find products whose stock is below 10.
+333. Generate a product-wise inventory report.
+
+--------------------------------------------------------------
+
+D. Finance Management System (334–340)
+
+334. Create a dictionary to store monthly income.
+335. Create a dictionary to store monthly expenses.
+336. Calculate total income and total expenses.
+337. Calculate monthly savings.
+338. Find the month with the highest expenses.
+339. Group expenses by category (Food, Travel, Shopping, Bills).
+340. Generate a monthly financial summary.
+
+--------------------------------------------------------------
+
+E. API, JSON and Backend Challenges (341–350)
+
+341. Create a Python dictionary representing a user registration request.
+342. Create a dictionary representing a login request with email and password fields.
+343. Validate whether required keys exist in an API request dictionary.
+344. Extract user information from a nested dictionary representing a JSON response.
+345. Create a dictionary representing an API success response with status, message and data.
+346. Create a dictionary representing an API error response.
+347. Convert a Python dictionary into a JSON string using json.dumps().
+348. Convert a JSON string into a Python dictionary using json.loads().
+349. Create a list of dictionaries representing multiple database records.
+350. Filter a list of dictionary records based on a particular field, such as status == "ACTIVE".
+
+--------------------------------------------------------------
+
+Bonus Challenges (351–360)
+
+These are additional questions to push your problem-solving skills.
+
+351. Create a shopping cart using dictionaries and calculate the total bill.
+352. Create a bank account system with deposit and withdrawal operations.
+353. Create a library management system using nested dictionaries.
+354. Create a login system using username and password dictionaries (use mock data only).
+355. Create a quiz application using dictionaries to store questions and answers.
+356. Create a restaurant order management system using dictionaries.
+357. Create a sales dashboard summary using dictionaries.
+358. Create a user role and permission management system.
+359. Create a simple employee attendance system.
+360. Create a complete CRUD application using dictionaries without a database.
+
+--------------------------------------------------------------

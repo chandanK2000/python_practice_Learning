@@ -1,0 +1,426 @@
+--------------------------------------------------------------------------
+Category 1: File Handling Fundamentals (1–15)
+Focus: open(), file modes, write(), close()
+
+1. What is file handling in Python?
+
+2. Create a file called hello.txt.
+
+3. Write Hello Python into a file.
+
+4. Write your name, age and city into a file.
+
+5. Write five different lines into a file.
+
+6. Create a file called student.txt using w mode.
+
+7. What happens when you open an existing file using w mode?
+
+8. Create a file using x mode.
+
+9. Try creating the same file twice using x mode. Observe the error.
+
+10. Open an existing file using r mode.
+
+11. What happens if you try reading a file that doesn't exist?
+
+12. Create a file using a mode.
+
+13. Add new content to an existing file using a mode.
+
+14. Write 10 student names into a file.
+
+15. Explain the difference between r, w, a and x.
+
+--------------------------------------------------------------------------
+
+Category 2: Reading Files (16–30)
+Focus: read(), readline(), readlines()
+
+16. Read the complete content of a text file.
+
+
+17. Read only the first five characters using read(5).
+
+18. Read the first 10 characters.
+
+19. Read the first line using readline().
+
+20. Read the first two lines using readline().
+
+21. Read all lines using readlines().
+
+22. Print all lines using a for loop.
+
+23. Read a file containing 20 lines.
+
+24. Read only the first 10 lines from a file containing 100 lines.
+
+25. Count the total number of lines in a file.
+
+26. Count the total number of characters in a file.
+
+27. Count the total number of words in a file.
+
+28. Read a file and print only the last line.
+
+29. Read a file and print only the first and last lines.
+
+30. Read a file and display each line with its line number.
+
+--------------------------------------------------------------------------
+
+Category 3: Writing and Appending (31–45)
+Focus: write(), writelines()
+
+31. Write a single sentence into a file.
+
+32. Write five lines using five write() statements.
+
+33. Write five lines using only one write() statement.
+
+34. Write a list of names into a file.
+
+35. Use writelines() to write multiple strings.
+
+36. Add a new student name using append mode.
+
+37. Add 10 employee records to a file.
+
+38. Write a multiplication table into a file.
+
+39. Write numbers from 1 to 100 into a file.
+
+40. Write even numbers from 1 to 100 into a file.
+
+41. Write odd numbers from 1 to 100 into a file.
+
+42. Write a student's marks for five subjects into a file.
+
+43. Append today's date to a log file.
+
+44. Write a paragraph and maintain proper line breaks.
+
+45. Explain the difference between write() and writelines().
+
+--------------------------------------------------------------------------
+
+Category 4: File Cursor and Other Methods (46–60)
+Focus: tell(), seek(), flush(), close(), closed
+
+46. Find the initial file cursor position using tell().
+
+47. Read five characters and print the cursor position.
+
+48. Read 10 characters and check the cursor position.
+
+49. Use seek(0) to move the cursor to the beginning.
+
+50. Read five characters, reset the cursor and read again.
+
+51. Move the cursor to position 10 using seek(10).
+
+52. Read content after moving the cursor.
+
+53. Check whether a file is closed using closed.
+
+54. Check the file status before and after close().
+
+55. Write content and use flush().
+
+56. Explain what happens if you try reading from a closed file.
+
+57. What is a file cursor?
+
+58. What is the difference between tell() and seek()?
+
+59. Can you read the same file multiple times without using seek()?
+
+60. Demonstrate how to read a file from the beginning after reaching the end.
+
+--------------------------------------------------------------------------
+
+Category 5: with open() and Exception Handling (61–75)
+
+Focus: Context managers, try, except, finally
+
+61. Read a file using with open().
+
+62. Write a file using with open().
+
+63. Append content using with open().
+
+64. Explain why with open() is preferred over manually calling close().
+
+65. Check whether the file automatically closes after a with block.
+
+66. Handle FileNotFoundError.
+
+67. Handle PermissionError.
+
+68. Handle FileExistsError.
+
+69. Use try-except while opening a file.
+
+70. Use try-except-finally for file handling.
+
+71. Handle an error when trying to read a closed file.
+
+72. Create a program that checks whether a file exists before reading it.
+
+73. Create a program that handles an empty file.
+
+74. Create a program that handles an invalid filename.
+
+75. Write a safe file-reading function using exception handling.
+
+--------------------------------------------------------------------------
+
+Category 6: Practical Text File Problems (76–90)
+
+76. Count the number of vowels in a file.
+
+77. Count consonants in a file.
+
+78. Count uppercase and lowercase characters.
+
+79. Count digits in a file.
+
+80. Count special characters in a file.
+
+81. Find the longest word in a file.
+
+82. Find the shortest word in a file.
+
+83. Find how many times the word Python appears.
+
+84. Search for a particular word in a file.
+
+85. Replace a particular word with another word.
+
+86. Convert all file content to uppercase.
+
+87. Convert all file content to lowercase.
+
+88. Reverse the entire content of a file.
+
+89. Copy content from one text file to another.
+
+90. Remove blank lines from a file.
+
+--------------------------------------------------------------------------
+
+Category 7: Advanced File Operations (91–105)
+
+Focus: os, pathlib, file and directory operations
+
+91. Check whether a file exists using os.path.exists().
+
+92. Get the file size using os.path.getsize().
+
+93. Get the filename using os.path.basename().
+
+94. Get the directory path using os.path.dirname().
+
+95. Rename a file using os.rename().
+
+96. Delete a file using os.remove().
+
+97. Create a folder using os.mkdir().
+
+98. Create nested folders using os.makedirs().
+
+99. List all files inside a folder using os.listdir().
+
+100. Check whether a path is a file or directory.
+
+101. Get the current working directory.
+
+102. Change the current working directory.
+
+103. Create a file using pathlib.Path.
+
+104. Read a file using Path.read_text().
+
+105. Write content using Path.write_text().
+
+--------------------------------------------------------------------------
+
+Category 8: File Processing and Data Manipulation (106–120)
+
+106. Read a file and store each line in a Python list.
+
+107. Remove newline characters (\n) from each line.
+
+108. Remove extra spaces from every line using strip().
+
+109. Sort names alphabetically from a text file.
+
+110. Find duplicate names in a file.
+
+111. Find unique words in a file.
+
+112. Find the frequency of each word in a file using a dictionary.
+
+113. Read numbers from a text file and calculate their sum.
+
+114. Calculate the average of numbers stored in a file.
+
+115. Find the maximum number in a file.
+
+116. Find the minimum number in a file.
+
+117. Separate even and odd numbers into two different files.
+
+118. Merge two text files into one file.
+
+119. Compare the contents of two text files.
+
+120. Remove duplicate lines from a file.
+
+--------------------------------------------------------------------------
+
+Category 9: CSV File Handling (121–130)
+Focus: Python csv module
+
+121. Create a CSV file using Python.
+
+122. Write student details into a CSV file.
+
+123. Read all records from a CSV file.
+124. Read CSV data using csv.reader().
+125. Write multiple records using csv.writer().
+126. Use csv.DictReader() to read student records.
+127. Use csv.DictWriter() to write employee records.
+128. Search for an employee by employee ID in a CSV file.
+129. Calculate the average salary from CSV records.
+130. Update a student's marks in a CSV file.
+
+--------------------------------------------------------------------------
+
+Category 10: JSON File Handling (131–140)
+Focus: Python json module
+
+131. Create a JSON file.
+132. Store user details in JSON format.
+133. Read JSON data using json.load().
+134. Convert a Python dictionary into JSON using json.dumps().
+135. Write JSON data into a file using json.dump().
+136. Read a list of students from a JSON file.
+137. Add a new student record to an existing JSON file.
+138. Update an existing user's email in JSON.
+139. Delete a particular student from JSON data.
+140. Handle invalid JSON using exception handling.
+
+Category 11: Mini Projects (141–150)
+These are important because they connect file handling to real development scenarios.
+
+
+--------------------------------------------------------------------------
+
+141. Personal Notes Application
+- Create notes.
+- View notes.
+- Append notes.
+- Search notes.
+
+142. Employee Management System
+- Add employees.
+- View employee records.
+- Search by employee ID.
+- Store data in CSV.
+
+143. Student Marks Management
+- Store student marks.
+- Calculate total and average.
+- Find highest marks.
+- Save results in a file.
+
+144. Application Log Manager
+- Store application logs.
+- Add timestamps.
+- Read error logs.
+- Search for errors.
+
+145. Expense Tracker
+- Add income and expenses.
+- Store records in CSV.
+- Calculate total expenses.
+- Generate a summary.
+
+146. Contact Book
+- Add contacts.
+- Search by name.
+- Update phone numbers.
+- Delete contacts.
+
+147. User Registration System
+- Register a user.
+- Store username and email in JSON.
+- Validate login details.
+- Handle duplicate users.
+
+148. File Organizer
+- Create folders.
+- List files.
+- Organize files by extension.
+- Rename files.
+
+
+
+
+
+
+
+
+
+
+
+
+
+149. Text Search Application
+- Search for words.
+- Count occurrences.
+- Replace words.
+- Display matching lines.
+
+
+
+
+
+
+
+
+
+
+
+
+
+150. Sticky Notes Application
+- Create notes.
+- Read notes.
+- Update notes.
+- Delete notes.
+- Save and retrieve data from files.
+
+
+
+
+Important functions cheat sheet
+Keep this as your revision reference.
+Function / Module	Purpose
+open()	Open a file
+read()	Read content
+readline()	Read one line
+readlines()	Read all lines as a list
+write()	Write content
+writelines()	Write multiple strings
+tell()	Get cursor position
+seek()	Change cursor position
+close()	Close a file
+flush()	Flush buffered content
+with open()	Automatically close a file
+os	File and directory operations
+pathlib	Object-oriented path operations
+csv	CSV file handling
+json	JSON file handling

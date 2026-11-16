@@ -1,0 +1,245 @@
+------------------------------------------------------------------
+Python Match-Case – 150 Practice Questions
+
+
+
+Level 1 – Basic Questions (1–40)
+Goal: Understand basic match, case and case _.
+
+1. Create a program to display the day name based on day number (1–7).
+
+2. Display the month name based on month number (1–12).
+
+3. Create a calculator using match-case for addition.
+
+4. Create a calculator using match-case for subtraction.
+5. Create a calculator using match-case for multiplication.
+6. Create a calculator using match-case for division.
+7. Create a complete calculator supporting +, -, *, /.
+8. Display a message based on traffic signal color.
+9. Display a greeting based on "morning", "afternoon" or "evening".
+10. Create a program to identify vowels (a, e, i, o, u).
+11. Identify whether a character is a vowel or something else.
+12. Display a season based on month number.
+13. Display a message based on a user's role: ADMIN, MANAGER or USER.
+14. Create a menu-driven program for Add, Update, Delete and View.
+15. Display a message based on a selected food item.
+16. Create a program to display the name of a selected programming language.
+17. Display a message based on a selected payment method.
+18. Create a program to identify the selected browser.
+19. Display a message based on a selected operating system.
+20. Create a program to identify a selected vehicle type.
+21. Display a message based on a selected course: Python, Java, MERN or Data Science.
+22. Create a program to identify a selected currency: INR, USD, EUR or GBP.
+23. Display a message based on a selected day type: weekday or weekend.
+24. Create a simple login menu with Login, Register and Exit options.
+25. Create a program to identify a selected file extension.
+26. Display a message based on a selected movie category.
+27. Create a program for different mathematical operations.
+28. Display a message based on a selected internet connection type.
+29. Create a program to identify a selected bank account type.
+30. Display a message based on a selected membership plan.
+31. Create a program to identify a selected mobile network operator.
+32. Create a program to identify a selected department: HR, IT, Finance or Sales.
+33. Display a message based on a selected exam result: PASS or FAIL.
+34. Create a program to identify a selected notification type.
+35. Display a message based on a selected delivery method.
+36. Create a program to identify a selected ticket category.
+37. Display a message based on a selected priority: LOW, MEDIUM or HIGH.
+38. Create a program to identify a selected document type.
+39. Create a program to identify a selected social media platform.
+40. Create a program to display a message for an unknown choice using case _.
+
+------------------------------------------------------------------
+
+Level 2 – Medium Questions (41–80)
+
+Goal: Practice multiple values, OR patterns, guards and structured data.
+
+41. Use multiple values in one case to identify weekdays and weekends.
+42. Identify vowels using a single case with multiple alternatives.
+43. Create a calculator that handles invalid operators using case _.
+44. Create a menu-driven banking application with Deposit, Withdraw and Balance options.
+45. Build a program that identifies a number as 1, 2, 3 or another number.
+46. Use match-case to identify positive, negative and zero using a guard (if).
+47. Classify numbers as even or odd using a guard.
+48. Identify whether a number is between 1–10, 11–20 or above 20 using guards.
+49. Create a grading system based on marks using guards.
+50. Create an age category system: Child, Teenager, Adult and Senior Citizen.
+51. Create a discount calculator based on purchase amount using guards.
+52. Create a program to identify leap year or non-leap year using guards.
+53. Create a program to classify temperature as Cold, Normal, Hot or Very Hot.
+54. Create an electricity bill calculator using match-case and guards.
+55. Create a program to identify a valid month number and display its days.
+56. Match a tuple containing two values, such as (operation, number).
+57. Match a tuple containing three values, such as (name, age, city).
+58. Match a list containing exactly two elements.
+59. Match a list containing three elements.
+60. Match an empty list and display an appropriate message.
+61. Match a list containing one or more elements.
+62. Match a dictionary containing a "name" key.
+63. Match a dictionary containing "name" and "age" keys.
+64. Match a dictionary containing "status": "active".
+65. Match a dictionary containing "role": "admin".
+66. Match a tuple representing a coordinate (x, y).
+67. Match a tuple representing a 3D coordinate (x, y, z).
+68. Match different HTTP status codes: 200, 201, 400, 401, 404 and 500.
+69. Match different payment statuses: SUCCESS, FAILED, PENDING and REFUNDED.
+70. Match different order statuses: PLACED, SHIPPED, DELIVERED and CANCELLED.
+71. Match different HTTP request methods: GET, POST, PUT, DELETE.
+72. Create a program that identifies a file based on its extension.
+73. Match a tuple representing a user role and account status.
+74. Match a list containing two numbers and calculate their sum.
+75. Match a tuple containing an operator and two operands to perform calculations.
+76. Match different combinations of login status and user role.
+77. Create a program to identify a product category from a dictionary.
+78. Match different error codes and display appropriate error messages.
+79. Create a program to identify different notification types using OR patterns.
+80. Build a simple command-line application using match-case with multiple menu options.
+
+------------------------------------------------------------------
+
+Level 3 – Advanced Questions (81–115)
+
+Goal: Learn sequence patterns, mapping patterns, nested patterns, guards and advanced matching.
+81. Match a list containing exactly three integers.
+82. Match a list where the first element is "admin".
+83. Match a list where the first element is a string and the second is an integer.
+84. Match a list containing at least two elements using a starred pattern.
+85. Extract the first, middle and last elements from a list using sequence patterns.
+86. Match a tuple containing two integers and calculate their product.
+87. Match a tuple where the first element is "ADD" and the remaining two are numbers.
+88. Match a tuple representing a student's name, marks and grade.
+89. Match a nested list containing student details.
+90. Match a nested tuple containing employee and department details.
+91. Match a dictionary containing name, age and city, then extract their values.
+92. Match a dictionary containing a user's username and role.
+93. Match a dictionary with "status": "success" and extract its message.
+94. Match a dictionary with "status": "error" and extract its error code.
+95. Match a dictionary containing nested address information.
+96. Match a dictionary containing a list of product items.
+97. Match a dictionary where the user role is ADMIN and account status is ACTIVE.
+98. Match a nested dictionary containing employee details and salary information.
+99. Match a list of coordinates and identify 2D versus 3D coordinates.
+100. Match different combinations of product type and stock status.
+101. Build a calculator using tuple patterns and guards.
+102. Build a grading system using match-case and guards.
+103. Create a number classification program using guards for ranges.
+104. Create a program that identifies a triangle using its three side lengths.
+105. Build a program to identify valid and invalid date structures using tuple patterns.
+106. Match different API response structures: success, error and pending.
+107. Build a program that extracts information from nested JSON-like dictionaries.
+108. Match a list of employee records and identify records with missing fields.
+109. Match a dictionary containing "type": "student" and extract student details.
+110. Match a dictionary containing "type": "employee" and extract employee details.
+111. Create a program that matches different combinations of payment method and payment status.
+112. Build a program that matches different combinations of product category and price range.
+113. Create a command parser that matches commands such as ("create", "student") and ("delete", "student").
+114. Match a nested structure representing a shopping cart with multiple products.
+115. Build a complete command interpreter using match-case, guards and sequence patterns.
+
+------------------------------------------------------------------
+
+Level 4 – Interview Questions (116–135)
+
+Goal: Understand how Python pattern matching actually works.
+116. What is the purpose of match-case in Python?
+117. Which Python version introduced match-case?
+118. What is the difference between if-elif-else and match-case?
+119. What is the purpose of case _?
+120. Is case _ similar to the else block?
+121. Can we use multiple values in a single case?
+122. What is an OR pattern in Python?
+123. What is a guard in match-case?
+124. Can we use an if condition inside a case?
+125. What is a sequence pattern?
+126. What is a mapping pattern?
+127. What is a wildcard pattern?
+128. What is a capture pattern?
+129. What is a literal pattern?
+130. What is a class pattern?
+131. What happens when no case matches?
+132. Does Python check every case after finding a match?
+133. What is the difference between matching a list and matching a tuple?
+134. Can we use nested patterns in match-case?
+135. Explain the difference between case 10, case x and case _.
+Interview output-based questions
+136. Predict the output:
+value = 10match value:    case 10:        print("Ten")    case 20:        print("Twenty")    case _:        print("Other")
+
+
+
+137. Predict the output:
+value = 15match value:    case 10 | 15 | 20:        print("Matched")    case _:        print("Not matched")
+
+
+
+138. Predict the output:
+value = 25match value:    case x if x > 20:        print("Greater than 20")    case _:        print("Other")
+
+
+
+139. Identify the problem in this code:
+value = 10match value:    case x:        print("Value captured")    case 10:        print("Ten")
+
+
+
+140. Predict the output:
+data = [10, 20, 30]match data:    case [a, b, c]:        print(a + b + c)    case _:        print("Invalid")
+
+
+
+141. Predict the output:
+data = [10, 20, 30, 40]match data:    case [first, *remaining]:        print(first)        print(remaining)    case _:        print("Invalid")
+
+
+
+142. Predict the output:
+user = {"name": "Chandan", "age": 25}match user:    case {"name": name, "age": age}:        print(name, age)    case _:        print("Invalid")
+
+
+
+143. Predict the output:
+status = "success"match status:    case "success" if status == "success":        print("Completed")    case _:        print("Failed")
+
+
+
+144. What is wrong with this code?
+value = 100match value:    case 10:        print("Ten")    case x:        print("Other")    case 100:        print("Hundred")
+
+
+
+145. Write a program using OR patterns to identify all vowels in a single case.
+
+146. Write a program using guards to classify salary into different salary ranges.
+
+147. Write a program using nested patterns to extract employee name and department from a dictionary.
+
+148. Write a program using sequence patterns to identify whether a list has one, two or three elements.
+
+149. Explain why case x does not mean "match the value of variable x" in a pattern.
+
+150. When should you prefer if-elif-else over match-case? Explain with examples.
+
+------------------------------------------------------------------
+
+Level 5 – Real-World Projects (151–165)
+
+Goal: Use match-case in practical application logic.
+151. Student Management: Create a menu for Add Student, Update Student, Delete Student, View Student and Search Student.
+152. Student Management: Match student records based on status: ACTIVE, INACTIVE, PASSED or FAILED.
+153. Student Management: Extract student information from nested dictionaries.
+154. Finance App: Create a transaction menu for Income, Expense, Transfer and Balance.
+155. Finance App: Match transaction categories such as Food, Travel, Shopping, Bills and Salary.
+156. Finance App: Identify transaction statuses: SUCCESS, FAILED, PENDING and REFUNDED.
+157. Warehouse App: Create a stock management menu for Add Stock, Remove Stock, Update Stock and View Stock.
+158. Warehouse App: Match stock conditions: OUT_OF_STOCK, LOW_STOCK, NORMAL and OVERSTOCK.
+159. Warehouse App: Match a dictionary containing warehouse ID, warehouse name and warehouse status.
+160. Inventory App: Create a product management menu using match-case.
+161. Inventory App: Match product details based on category, quantity and price.
+162. Authentication: Create a login flow based on role and account status.
+163. E-commerce: Create an order management system using order status.
+164. Payment System: Build a payment processor that handles UPI, CARD, NET_BANKING and CASH.
+165. API Development: Create a simple API response handler that matches status codes and response structures.
+
+------------------------------------------------------------------

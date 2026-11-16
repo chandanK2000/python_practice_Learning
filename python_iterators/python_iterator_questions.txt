@@ -1,0 +1,240 @@
+-------------------------------------------------------------------
+
+Python Iterators – 150 Practice Questions
+
+Level 1: Beginner – Understand the basics (1–20)
+
+First understand these concepts: iterable, iterator, iteration, iter(), and next().
+
+1. What is an iterator in Python?
+2. What is an iterable in Python?
+3. What is the difference between an iterator and an iterable?
+4. What is iteration?
+5. What is the purpose of the iter() function?
+6. What is the purpose of the next() function?
+7. Create a list containing 5 numbers and print its iterator using iter().
+8. Create an iterator from a string.
+9. Create an iterator from a tuple.
+10. Create an iterator from a set.
+11. Create an iterator from a dictionary.
+12. Use next() to print the first element of a list iterator.
+13. Use next() to print the first three elements of an iterator.
+14. Create a list iterator and print its elements one by one.
+15. Create a string iterator and access its characters using next().
+16. Create a tuple iterator and access its elements using next().
+17. Can we use iter() on an integer? Test it.
+18. Can we use iter() on a float? Test it.
+19. Can we use iter() on a Boolean value? Test it.
+20. What happens when you call next() on an empty iterator?
+
+-------------------------------------------------------------------
+
+Level 2: Basic Coding with iter() and next() (21–40)
+
+21. Create a list [10, 20, 30, 40, 50] and print all elements using iter() and next().
+22. Print all characters of "Python" using an iterator.
+23. Print all elements of a tuple using an iterator.
+24. Print all elements of a dictionary using an iterator.
+25. Print all keys of a dictionary using an iterator.
+26. Print all values of a dictionary using an iterator.
+27. Print all items of a dictionary using an iterator.
+28. Create an iterator from [1, 2, 3, 4, 5] and call next() five times.
+29. Create an iterator and access only the first two elements.
+30. Create an iterator and access the last element.
+31. Use iter() and next() to print numbers from 1 to 10.
+32. Use an iterator to print even numbers from a list.
+33. Use an iterator to print odd numbers from a list.
+34. Use an iterator to calculate the sum of list elements.
+35. Use an iterator to calculate the product of list elements.
+36. Count the number of elements using an iterator.
+37. Find the largest number using an iterator.
+38. Find the smallest number using an iterator.
+39. Find the total number of characters in a string using an iterator.
+40. Reverse the order of a list using an appropriate iterator-based approach.
+
+-------------------------------------------------------------------
+
+Level 3: Medium – Loops and Iterators (41–60)
+
+41. Print all elements of a list using a while loop and next().
+42. Print all elements of a tuple using a while loop and next().
+43. Print all characters of a string using a while loop and next().
+44. Use try-except to handle StopIteration.
+45. Print all elements without getting a StopIteration error.
+46. Use iter() and next() with a default value.
+47. What happens when the iterator reaches its end?
+48. Can we use a for loop with an iterator?
+49. Can we use next() multiple times on the same iterator?
+50. Does an iterator remember its current position?
+51. Create an iterator and print its first element. Then print its second element.
+52. Create two iterators from the same list. Compare their positions.
+53. Create one iterator and consume it completely. Try using it again.
+54. Create an iterator from a list and convert it back into a list.
+55. Create an iterator from a string and convert it into a tuple.
+56. Use enumerate() to iterate over a list with indexes.
+57. Use zip() to iterate over two lists together.
+58. Use map() to create an iterator of squares.
+59. Use filter() to create an iterator of even numbers.
+60. Explain why a for loop works with an iterable.
+
+-------------------------------------------------------------------
+
+Level 4: Output Prediction (61–80)
+
+Predict the output before running each program.
+numbers = [10, 20, 30]x = iter(numbers)print(next(x))print(next(x))
+
+
+
+name = "Python"x = iter(name)print(next(x))print(next(x))print(next(x))
+
+
+
+numbers = [1, 2, 3]x = iter(numbers)print(list(x))print(list(x))
+
+
+
+numbers = [10, 20, 30, 40]x = iter(numbers)print(next(x))print(list(x))
+
+
+
+numbers = [1, 2, 3]x = iter(numbers)print(next(x, 100))print(next(x, 100))
+
+
+
+numbers = [5, 10, 15]x = iter(numbers)for n in x:    print(n)
+
+
+
+numbers = [1, 2, 3]x = iter(numbers)print(next(x))print(next(x))print(next(x))print(next(x))
+
+
+
+a = [10, 20, 30]x = iter(a)y = iter(a)print(next(x))print(next(y))
+
+
+
+numbers = [1, 2, 3, 4]x = iter(numbers)print(next(x))print(next(x, 99))print(next(x))
+
+
+
+name = "Hello"x = iter(name)for i in range(3):    print(next(x))
+
+
+
+71. Predict the output of list(iter([1, 2, 3])).
+72. Predict the output of tuple(iter("ABC")).
+73. What happens when next() is called three times on an iterator containing two elements?
+74. What happens when an iterator is used in two consecutive for loops?
+75. Predict the output when a list is modified after creating its iterator.
+76. What is the output of list(map(lambda x: x*2, [1, 2, 3]))?
+77. What is the output of list(filter(lambda x: x > 5, [2, 6, 8, 3]))?
+78. Predict the output of list(zip([1, 2], [3, 4])).
+79. Predict the output of list(enumerate(["A", "B", "C"])).
+80. What happens when you convert the same exhausted iterator to a list twice?
+
+-------------------------------------------------------------------
+
+Level 5: Debugging and Error Handling (81–100)
+
+81. Correct the error:
+numbers = [10, 20, 30]print(next(numbers))
+
+
+
+82. Correct the error:
+x = iter([1, 2, 3])print(x[0])
+
+
+
+83. Correct the error:
+x = iter([10, 20])print(next(x))print(next(x))print(next(x))
+
+
+
+84. Handle StopIteration using try-except.
+85. Write a program that checks whether an object is iterable.
+86. Write a program that checks whether an object is an iterator.
+87. Find the mistake in a program that calls iter() on an integer.
+88. Correct a program that tries to reuse an exhausted iterator.
+89. Write a program that safely accesses the next element using a default value.
+90. Write a program that handles an empty list iterator.
+91. Why does next([1, 2, 3]) produce an error?
+92. Why does next(iter(100)) produce an error?
+93. What is the difference between TypeError and StopIteration in iterator operations?
+94. Write a program to avoid accessing an iterator beyond its available elements.
+95. Debug a program that accidentally creates a new iterator inside every loop iteration.
+96. Debug a program that prints only the first element repeatedly.
+97. Correct a program that uses next() without checking for the end.
+98. Explain why an iterator cannot generally be reset.
+99. Write a program that creates a fresh iterator whenever needed.
+100. Write a program that handles iterator errors using try-except-else.
+
+-------------------------------------------------------------------
+
+Level 6: Advanced – Custom Iterators (101–120)
+
+Now we will create our own iterator classes using __iter__() and __next__().
+101. What is a custom iterator?
+102. What is the purpose of __iter__()?
+103. What is the purpose of __next__()?
+104. What is the difference between iter() and __iter__()?
+105. What is the difference between next() and __next__()?
+106. Create a class that returns numbers from 1 to 5 using an iterator.
+107. Create a custom iterator that prints numbers from 1 to 10.
+108. Create a custom iterator that prints even numbers from 2 to 20.
+109. Create a custom iterator that prints odd numbers from 1 to 19.
+110. Create a custom iterator that prints numbers in reverse from 10 to 1.
+111. Create a custom iterator that generates multiplication table values for 5.
+112. Create a custom iterator that generates squares from 1 to 10.
+113. Create a custom iterator that generates cubes from 1 to 10.
+114. Create a custom iterator that returns characters of a string one by one.
+115. Create a custom iterator that returns list elements in reverse.
+116. Create a custom iterator that generates numbers divisible by 3.
+117. Create a custom iterator that generates Fibonacci numbers.
+118. Create a custom iterator that generates numbers within a given range.
+119. Create a custom iterator that stops after 5 elements.
+120. Create a custom iterator that raises StopIteration after reaching its limit.
+
+-------------------------------------------------------------------
+
+Level 7: Real-World Programming (121–135)
+
+121. Create an iterator to read student names one by one.
+122. Create an iterator to display employee records one by one.
+123. Create an iterator to process product prices.
+124. Create an iterator to process warehouse stock quantities.
+125. Create an iterator to display invoice numbers one by one.
+126. Create an iterator to process a list of customer details.
+127. Create an iterator to display transaction records.
+128. Create an iterator to process marks of students and calculate their total.
+129. Create an iterator to display daily expenses.
+130. Create an iterator that processes a list of API response records.
+131. Create an iterator to read lines from a text file.
+132. Create an iterator to process large amounts of data in batches.
+133. Create an iterator that generates OTP digits one by one.
+134. Create an iterator that generates unique order numbers.
+135. Create an iterator that processes a list of pending tasks.
+
+-------------------------------------------------------------------
+
+Level 8: Generators and itertools (136–150)
+
+These questions introduce related advanced Python concepts.
+136. What is a generator in Python?
+137. What is the difference between a generator and an iterator?
+138. What is the purpose of the yield keyword?
+139. Create a generator that produces numbers from 1 to 10.
+140. Create a generator that produces even numbers from 1 to 50.
+141. Create a generator that produces squares from 1 to 10.
+142. Create a generator that produces Fibonacci numbers.
+143. Create a generator that returns characters of a string.
+144. What is a generator expression?
+145. Convert a list comprehension into a generator expression.
+146. What is the purpose of the itertools module?
+147. Use itertools.count() to generate numbers.
+148. Use itertools.cycle() to repeat elements.
+149. Use itertools.repeat() to repeat a value.
+150. Use itertools.islice() to access a portion of an iterator.
+
+-------------------------------------------------------------------
